@@ -1,0 +1,1974 @@
+{
+ "title": "A Gentle Introduction to Quantum Computing",
+ "drive": "https://drive.google.com/drive/folders/1OMa3SzBhIBtOJjCh2wKxCrW_yH9ujOjq",
+ "github": "https://github.com/bubakazouba/spiny-quantum",
+ "tracks": [
+  {
+   "id": "foundations",
+   "name": "Foundations",
+   "blurb": "Qubits, gates as matrices, superdense coding, teleportation",
+   "items": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "id": "oracles",
+   "name": "Oracle algorithms",
+   "blurb": "Deutsch, Deutsch-Jozsa, Simon",
+   "items": [
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "id": "nonlocality",
+   "name": "Entanglement and nonlocality",
+   "blurb": "EPR pairs, Bell and CHSH",
+   "items": [
+    "8",
+    "10",
+    "14"
+   ]
+  },
+  {
+   "id": "grover",
+   "name": "Grover and circuits",
+   "blurb": "Search, oracles, no-cloning, gate decomposition, Qiskit",
+   "items": [
+    "9",
+    "12",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "id": "measurement",
+   "name": "Measurement",
+   "blurb": "POVMs and measuring compatible operators",
+   "items": [
+    "11",
+    "34",
+    "58"
+   ]
+  },
+  {
+   "id": "shor",
+   "name": "Shor, QFT and phase estimation",
+   "blurb": "Period finding, QFT, Draper adder, quantum counting",
+   "items": [
+    "16",
+    "17",
+    "18",
+    "24",
+    "25"
+   ]
+  },
+  {
+   "id": "hardware",
+   "name": "Hardware",
+   "blurb": "Superconducting qubits, with a guest lecture by Daniel Sank",
+   "items": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "52"
+   ]
+  },
+  {
+   "id": "optimization",
+   "name": "Optimization and linear systems",
+   "blurb": "Adiabatic QC, QAOA, HHL",
+   "items": [
+    "27",
+    "28",
+    "29"
+   ]
+  },
+  {
+   "id": "challenges",
+   "name": "Challenges and practice",
+   "blurb": "QOSF and IBM challenge walk-throughs, the quiz",
+   "items": [
+    "26",
+    "31",
+    "32",
+    "33"
+   ]
+  },
+  {
+   "id": "crypto",
+   "name": "Cryptography and lattices",
+   "blurb": "BB84, hidden subgroup problem, SVP, Kuperberg",
+   "items": [
+    "30",
+    "60",
+    "61",
+    "62"
+   ]
+  },
+  {
+   "id": "qec",
+   "name": "Error correction",
+   "blurb": "Shor code, Hamming, stabilizers, toric and surface codes, Mitiq",
+   "items": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "50"
+   ]
+  },
+  {
+   "id": "complexity",
+   "name": "Complexity and verification",
+   "blurb": "Interactive proofs, nonlocal games, Grilo, MIP* = RE",
+   "items": [
+    "49",
+    "54",
+    "55",
+    "56"
+   ]
+  },
+  {
+   "id": "ml",
+   "name": "Learning and ML",
+   "blurb": "Autoencoders, barren plateaus, online learning, learning states",
+   "items": [
+    "53",
+    "57",
+    "59",
+    "70"
+   ]
+  },
+  {
+   "id": "manybody",
+   "name": "Many-body physics",
+   "blurb": "Kitaev models, spin chains, AKLT, MPS, ergodicity breaking, KS systems",
+   "items": [
+    "51",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69"
+   ]
+  }
+ ],
+ "lectures": [
+  {
+   "id": "1",
+   "num": 1,
+   "title": "Intro to Qubits",
+   "video": "https://youtu.be/3IvboZX9Na8",
+   "yt": "3IvboZX9Na8",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/18rcbKKX1H0SF0GX5tI496COZqo8fEXuB/view?usp=drivesdk",
+     "id": "18rcbKKX1H0SF0GX5tI496COZqo8fEXuB",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><p>1.1 -&gt; 1.4 <a href=\"https://qiskit.org/textbook/ch-states/introduction.html\" target=\"_blank\" rel=\"noopener\">Introduction (qiskit.org)</a></p>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "foundations"
+  },
+  {
+   "id": "2",
+   "num": 2,
+   "title": "Gates as Matrices",
+   "video": "https://youtu.be/CJKOHq9YHG4",
+   "yt": "CJKOHq9YHG4",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1s1hmQ0QB5Msp0FDJydHnw4qPW8zhjDNl/view?usp=drivesdk",
+     "id": "1s1hmQ0QB5Msp0FDJydHnw4qPW8zhjDNl",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><p><a href=\"https://qiskit.org/textbook/ch-states/single-qubit-gates.html\" target=\"_blank\" rel=\"noopener\">Single Qubit Gates (qiskit.org)</a></p><p><a href=\"https://qiskit.org/textbook/ch-gates/multiple-qubits-entangled-states.html#3.1-The-CNOT-Gate-\" target=\"_blank\" rel=\"noopener\">Multiple Qubits and Entangled States (qiskit.org)</a></p><h4>Homework</h4><ul><li>CNOT applied on |--&gt; state<ul><li>Do this using the matrix</li><li>Do this using only the truth table of CNOT in the |0&gt;,|1&gt; basis (use linear algebra/superposition)</li></ul></li><li>show that (|01&gt; + |10&gt;)/sqrt(2) is not same as (|00&gt; + |11&gt;)/sqrt(2)</li><li>represent (|00&gt; + |11&gt;)/sqrt(2) in vector form</li><li>Download and setup qiskit</li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-11-06",
+   "due": "2021-11-12",
+   "date": "2021-11-06",
+   "presenter": null,
+   "track": "foundations"
+  },
+  {
+   "id": "3",
+   "num": 3,
+   "title": "More on Gates + Superdense Coding",
+   "video": "https://youtu.be/t7zQVv2Qnc8",
+   "yt": "t7zQVv2Qnc8",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/17HqYrRLxOFFy1K5BdDqP1bQEhOH-HvHB/view?usp=drivesdk",
+     "id": "17HqYrRLxOFFy1K5BdDqP1bQEhOH-HvHB",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><p><a href=\"https://qiskit.org/textbook/ch-algorithms/superdense-coding.html\" target=\"_blank\" rel=\"noopener\">Superdense Coding (qiskit.org)</a></p><h4>Homework</h4><ul><li>Completing superdense coding<ul><li>As a reminder, the protocol is as follows<ul><li>Alice and Bob share an epr pair |00&gt; + |11&gt; where Alice has the first qubit and Bob has the second qubit</li><li>Alice rolls a die and gets 0, 1, 2, 3 (which Bob now has to guess what she got)</li><li>Alice does the following depending on what she rolled<ul><li>If she rolled a 0, she does nothing</li><li>If she rolled a 1, she applies the X gate</li><li>If she rolled a 2, she applies the Z gate</li><li>If she rolled a 3, she applies the Y gate</li></ul></li><li>Alice then sends her qubit over to Bob</li><li>Bob has both qubits. He applies the CNOT gate and then H gate to the first qubit</li><li>Bob then measures both qubits</li></ul></li><li><b>Homework: Show that Bob gets a different result for both measurements depending on whether Alice rolled a 0, 1, 2, 3. </b></li></ul></li><li>Represent H with pauli matrices</li><li>What does XX, YY, ZZ do to a qubit?<ul><li>e.g applying X on a qubit then applying X again.</li><li>Hint you can multiply the matrices to see what the final resulting matrix would do</li></ul></li><li>What is the resulting 4x4 matrix when computing: X Ⓧ I (Pauli X matrix tensor product Identity Matrix)</li><li><b>For the motivated</b><ul><li><b>(If you don’t do this don’t worry we will do it together next lecture)</b> Write the complete superdense coding circuit in qiskit (as illustrated in lecture)<ul><li>Function should take 2 classicals bit and would finally output 2 qubits that when measured would give |00&gt;,|01&gt;,|10&gt;,|11&gt; depending on the 2 input classical bits</li></ul></li><li><b>For the very very motivated</b><ul><li>Do superdense coding with a different shared epr pair (|01&gt; + |10&gt;)</li></ul></li></ul></li><li>Represent |++&gt; state in vector form (in the 1x4 vector)</li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-11-13",
+   "due": "2021-11-20",
+   "date": "2021-11-13",
+   "presenter": null,
+   "track": "foundations"
+  },
+  {
+   "id": "4",
+   "num": 4,
+   "title": "Quantum Teleportation",
+   "video": "https://youtu.be/wTAAb8YV0QA",
+   "yt": "wTAAb8YV0QA",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1tQn2wRHkUQbls4PtvUSdgayAc2B_FNmf/view?usp=drivesdk",
+     "id": "1tQn2wRHkUQbls4PtvUSdgayAc2B_FNmf",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><p><a href=\"https://qiskit.org/textbook/ch-algorithms/teleportation.html\" target=\"_blank\" rel=\"noopener\">Quantum Teleportation (qiskit.org)</a></p><h4>Homework</h4><ul><li>Write the Superdense Coding circuit in qiskit<ul><li><a href=\"https://pastebin.com/dCZ2rZLx\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li>Draw the Quantum Teleportation circuit on paper</li><li>Rewrite each of the following states onto the Bell states basis<ul><li>|00&gt;</li><li>|+0&gt;</li><li>|++&gt;</li><li>|00&gt;+|11&gt;</li><li>|01&gt;+|10&gt;</li><li>Note: Notice how some of these states result in a deterministic measurement but others would result in a random one. This is very similar to how a qubit in the |+&gt;,|-&gt; basis once projected onto the |0&gt;,|1&gt; basis will give you a random output.</li></ul></li><li><b>Preparation for next lecture</b><ul><li><b>Quantum Teleportation</b><ul><li>Follow the complete math from the Wikipedia Quantum Teleportation article</li><li>Try applying the complete circuit with different states for |C&gt;<ul><li>|C&gt; = |0&gt; (i.e α = 1, β = 0)</li><li>|C&gt; = |1&gt;</li><li>|C&gt; = 1/sqrt(2) (|0&gt; + |1&gt;)</li></ul></li></ul></li><li><b>Deutsch-Jozsa</b><ul><li>Show that H^n |0&gt;^n = <img src=\"img/e3cc0878b79b.png\" alt=\"\" loading=\"lazy\">| i &gt; (e.g demonstrate the equality with n=3)<ul><li>Note how H^n |0&gt;^n = |+&gt;^n</li></ul></li><li>Write a circuit that transforms |00&gt; to |01&gt;, |01&gt; to |00&gt;, |10&gt; to |10&gt; and |11&gt; to |11&gt;</li><li><a href=\"https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm</a><ul><li>Read the section under Deutsch’s algorithm and if you are very motivated, the rest :)</li><li>We will be covering all of this in the class</li></ul></li></ul></li></ul></li><li><b>For the motivated</b><ul><li>If Bob has a 00+11 (AB) pair, and Dave has a 00+11 (CD) pair. Show that if Alice received 1 qubit each from Dave and Bob (A and C) then she performs the quantum teleportation protocol to teleport the state of qubit C to Bob’s qubit B. At the end of the protocol B will become entangled with D.</li><li>Notes<ul><li>1. No operations will be performed on D throughout the protocol.</li><li>2. Note how this is simply the quantum teleportation circuit we talked about in the lecture, except that C is entangled with D</li></ul></li><li>Write the bell states in vector form and show that they are orthogonal.<ul><li>For the very motivated, show that they form an orthogonal basis. An orthogonal basis means every other vector can be generated from these 4 and the states are orthogonal.</li></ul></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-11-20",
+   "due": "2021-11-27",
+   "date": "2021-11-20",
+   "presenter": null,
+   "track": "foundations"
+  },
+  {
+   "id": "5",
+   "num": 5,
+   "title": "Quantum Teleportation Review + Deutsch 1-bit",
+   "video": "https://youtu.be/BXmuQWOi0Hs",
+   "yt": "BXmuQWOi0Hs",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1I5vPoioQyZ_E5pqxNUem-nNpM4x_7oKo/view?usp=drivesdk",
+     "id": "1I5vPoioQyZ_E5pqxNUem-nNpM4x_7oKo",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>We talked about the quantum oracles for the constant function f(x) =0 and f(x) = x for the 1 bit case. Figure out what the quantum oracle would be for the functions f(x) = 1 and f(x) = NOT(x).</li><li>If you haven’t already (good prep for Deutsch n-bit case):<ul><li>Show that H^n |0&gt;^n = <img src=\"img/e3cc0878b79b.png\" alt=\"\" loading=\"lazy\">| i &gt; (e.g demonstrate the equality with n=3)<ul><li>Note how H^n |0&gt;^n = |+&gt;^n</li></ul></li></ul></li><li>Write the Qiskit implementation for Deutsch 1-bit algorithm</li><li>Go through the mathematics under Deutsch algorithm in the wikipedia page. Understand how we would transform the qubits without evaluating all four functions like we did in the lecture.<ul><li><a href=\"https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm</a></li></ul></li><li>If you are interested in understanding more about oracles: <a href=\"https://quantumcomputing.stackexchange.com/questions/4576/how-would-i-implement-the-quantum-oracle-in-deutschs-algorithm\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/4576/how-would-i-implement-the-quantum-oracle-in-deutschs-algorithm</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-11-27",
+   "due": "2021-12-04",
+   "date": "2021-11-27",
+   "presenter": null,
+   "track": "oracles"
+  },
+  {
+   "id": "6",
+   "num": 6,
+   "title": "Deutsch n-bit",
+   "video": "https://youtu.be/ojk2HBSKnbk",
+   "yt": "ojk2HBSKnbk",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1LGEtnGAIajEVqwZiz7BkoR_H7m3lqjLk/view?usp=drivesdk",
+     "id": "1LGEtnGAIajEVqwZiz7BkoR_H7m3lqjLk",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>Write the qiskit code for Berstein Vazirani algorithm (solution in qiskit link previous homework)</li><li>Preparation for the next lecture<ul><li>Understand <a href=\"https://en.wikipedia.org/wiki/Simon%27s_problem\" target=\"_blank\" rel=\"noopener\">Simon’s problem</a></li><li>Preread the solution of Simon’s Algorithm in Wikipedia or qiskit</li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-12-11",
+   "due": "2021-12-18",
+   "date": "2021-12-11",
+   "presenter": null,
+   "track": "oracles"
+  },
+  {
+   "id": "7",
+   "num": 7,
+   "title": "Deutsch coding + Simon's Algorithm",
+   "video": "https://youtu.be/Yo8EVG56-GY",
+   "yt": "Yo8EVG56-GY",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1oQS66xM5Wq4tk12UXOdWN7gycDeitLK4/view?usp=drivesdk",
+     "id": "1oQS66xM5Wq4tk12UXOdWN7gycDeitLK4",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>Preparation<ul><li>Read on the <a href=\"https://plato.stanford.edu/entries/qt-epr/\" target=\"_blank\" rel=\"noopener\">EPR paper</a> and <a href=\"https://en.wikipedia.org/wiki/Bell%27s_theorem\" target=\"_blank\" rel=\"noopener\">Bell’s inequality</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2021-12-18",
+   "due": "2021-12-25",
+   "date": "2021-12-18",
+   "presenter": null,
+   "track": "oracles"
+  },
+  {
+   "id": "8",
+   "num": 8,
+   "title": "EPR Pair and Bell’s Inequality",
+   "video": "https://youtu.be/h4tGul-imYg",
+   "yt": "h4tGul-imYg",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1RYHfHnAKcsfle41g8fDOKgweZ9uBKubh/view?usp=drivesdk",
+     "id": "1RYHfHnAKcsfle41g8fDOKgweZ9uBKubh",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>More on “Why is QM weird/cool?” You can test if a bomb is working without exploding it<ul><li><a href=\"https://www.youtube.com/watch?v=RhIf3Q_m0FQ&amp;t=370s\" target=\"_blank\" rel=\"noopener\">Why is quantum mechanics weird? The bomb experiment</a></li><li>Read about Hardy’s paradox.</li></ul></li><li>Preparation<ul><li>Try to understand bell’s paper on <a href=\"https://cds.cern.ch/record/111654/files/vol1p195-200_001.pdf\" target=\"_blank\" rel=\"noopener\">EPR Paradox</a><ul><li>Make sure you understand Bell’s Inequality from the last lecture notes.</li></ul></li><li><a href=\"https://qiskit.org/textbook/ch-algorithms/grover.html\" target=\"_blank\" rel=\"noopener\">Grover’s Algorithm</a></li></ul></li><li><b>For the motivated</b>:<ul><li>Read on CHSH inequality: <a href=\"https://en.wikipedia.org/wiki/CHSH_inequality\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/CHSH_inequality</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-01-01",
+   "due": "2022-01-07",
+   "date": "2022-01-01",
+   "presenter": null,
+   "track": "nonlocality"
+  },
+  {
+   "id": "9",
+   "num": 9,
+   "title": "Grover's Algorithm",
+   "video": "https://youtu.be/QBZhwfuvhbU",
+   "yt": "QBZhwfuvhbU",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/16Uk7ATUOFGZ7fTFOxqSCAPGkX7w7EE8F/view?usp=drivesdk",
+     "id": "16Uk7ATUOFGZ7fTFOxqSCAPGkX7w7EE8F",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>What if instead of trying to find only a single item with grover, we instead tried to find any of k different items that matched. Try to think about the following questions:<ul><li>What would be the runtime of the classical case? What about an expected runtime of the classical case?</li><li>How would the algorithm for Grover’s change if at all?</li><li>How would the runtime for Grover’s change?</li></ul></li><li>What would the oracle look like if we want to break AES using Grover’s algorithm? (You can assume that AES(key,data)-&gt;cipher is 1,1:1 mapping <a href=\"https://crypto.stackexchange.com/questions/60473/can-collisions-occur-with-encryption-algorithms\" target=\"_blank\" rel=\"noopener\">which is not necessarily true</a>)<ul><li><a href=\"http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html\" target=\"_blank\" rel=\"noopener\">Refresher on AES</a> (fairly long but worth it if you don't have much background in crypto)</li><li>You don’t need to write the qiskit code for the oracle, just think of how the oracle would look conceptually. Or try to imagine you are implementing the classical oracle (f(x) not Uf(x)) using classical pseudo code.</li><li>Examples on how to make oracles:<ul><li><a href=\"https://qiskit.org/textbook/ch-algorithms/grover.html#5.-Solving-Sudoku-using-Grover&#x27;s-Algorithm-\" target=\"_blank\" rel=\"noopener\">Grover's Algorithm (qiskit.org)</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/175/how-is-the-oracle-in-grovers-search-algorithm-implemented\" target=\"_blank\" rel=\"noopener\">circuit construction - How is the oracle in Grover's search algorithm implemented? - Quantum Computing Stack Exchange</a></li></ul></li><li><a href=\"https://arxiv.org/pdf/1512.04965.pdf\" target=\"_blank\" rel=\"noopener\">Cool paper on this specific problem</a></li></ul></li><li>In preparation for the next lecture, try to get familiar with modular arithmetic and <a href=\"https://en.wikipedia.org/wiki/Euler%27s_theorem\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/Euler%27s_theorem</a>.<ul><li>Khan academy is a good resource for modular arithmetic: <a href=\"https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic\" target=\"_blank\" rel=\"noopener\">https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic</a></li><li>This doc has a much more accessible proof of Euler’s theorem than Wikipedia (and we will go over it in class): <a href=\"https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf\" target=\"_blank\" rel=\"noopener\">https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-01-07",
+   "due": "2022-01-15",
+   "date": "2022-01-07",
+   "presenter": null,
+   "track": "grover"
+  },
+  {
+   "id": "10",
+   "num": 10,
+   "title": "CHSH inequality",
+   "video": "https://youtu.be/2jVg3dCCXYM",
+   "yt": "2jVg3dCCXYM",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1evnzlKPpvS-wK75L2T_M3RSRVD1SmUzC/view?usp=drivesdk",
+     "id": "1evnzlKPpvS-wK75L2T_M3RSRVD1SmUzC",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>In class, we went over Bell’s inequality and provided an example of a QM mechanical state and a set of measurements that violate Bell’s inequality. Since Bell’s paper, there have been other variants that have emerged. One such variant is the CHSH inequality.<ul><li>Try to understand what the CHSH inequality is. Here are some resources: <a href=\"https://qiskit.org/textbook/ch-demos/chsh.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/textbook/ch-demos/chsh.html</a>, <a href=\"https://en.wikipedia.org/wiki/Bell%27s_theorem\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/Bell%27s_theorem</a>, <a href=\"https://en.wikipedia.org/wiki/CHSH_inequality\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/CHSH_inequality</a></li><li>What is the upper bound on the inequality classical?</li><li>What is an example of a quantum system that violates this upper bound?</li><li><b>For the motivated:</b><ul><li>Can you prove the upper bound on the CHSH inequality?</li><li>(From Qiskit but many sources have this problem): Consider a game where Alice and Bob are put in separate rooms and each is given a bit x and y. respectively. These bits are chosen at random and independently of each other. On receiving the bit each of them replies with a bit of their own, a and b. Now, Alice and Bob win the game if a and b are different whenever x = y = 1 and equal otherwise. It is easy to see that the best possible strategy for Alice and Bob is to always give a = b = 0 (or 1). With this strategy, Alice and Bob can win the game at most 75% of the time. Imagine Alice and Bob are allowed to share an entangled two-qubit state. Is there a strategy they can use that would give them a better chance of winning than 75%? Remember that they can agree upon any strategy beforehand, but once they are given the random bits they cannot communicate anymore. They can take their respective parts of the entangled pair with them at all times, of course.)</li></ul></li></ul></li><li>We are going to talk about measurements in the next lecture. Here is a good resource to get you started if you are interested in reading ahead: <a href=\"https://inst.eecs.berkeley.edu/~cs191/fa14/lectures/lecture89.pdf\" target=\"_blank\" rel=\"noopener\">https://inst.eecs.berkeley.edu/~cs191/fa14/lectures/lecture89.pdf</a>.</li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-01-15",
+   "due": "2022-01-22",
+   "date": "2022-01-15",
+   "presenter": null,
+   "track": "nonlocality"
+  },
+  {
+   "id": "11",
+   "num": 11,
+   "title": "Measurements: POVM",
+   "video": "https://youtu.be/Sz64VJ5QtuA",
+   "yt": "Sz64VJ5QtuA",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1le5VdUPZ1aZL0Lq_f-ssCz9OBbBqvIU2/view?usp=drivesdk",
+     "id": "1le5VdUPZ1aZL0Lq_f-ssCz9OBbBqvIU2",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>In this lecture, we finally covered how measurements work. We glossed over how measurements worked when we did the Bell Inequality. Show that the measurements we covered in Bell Inequality in fact, do satisfy the properties of measurement that we learned about.<ul><li>Is the probability of getting an outcome m, &lt;Psi| (Mm)* Mm |Psi&gt;?</li><li>Do the measurements satisfy the completeness relation: Sum ((Mm)* Mm) = I?</li><li>Are they necessarily projective measurements?</li></ul></li><li>In Grover’s Algorithm, we had the operator 2|s&gt;&lt;s| - I and then remember that |s&gt; is a superposition of all the states (look at Wikipedia if you cannot remember: <a href=\"https://en.wikipedia.org/wiki/Grover%27s_algorithm\" target=\"_blank\" rel=\"noopener\">https://en.wikipedia.org/wiki/Grover%27s_algorithm</a>). This operator is called the Grover Diffusion operator.<ul><li>Prove that the operator in fact, takes the inverse about the mean of all the amplitudes.</li></ul></li><li>Preparation for the next lecture<ul><li><a href=\"https://en.wikipedia.org/wiki/No-cloning_theorem\" target=\"_blank\" rel=\"noopener\">No-cloning theorem - Wikipedia</a><ul><li>You can also check the <a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Information and Quantum Computation</a> book</li><li>Applications/consequences: <a href=\"https://www.quantiki.org/wiki/no-cloning-theorem\" target=\"_blank\" rel=\"noopener\">The no-cloning theorem | Quantiki</a></li></ul></li><li>Oracles<ul><li><a href=\"https://quantumcomputing.stackexchange.com/questions/175/how-is-the-oracle-in-grovers-search-algorithm-implemented\" target=\"_blank\" rel=\"noopener\">circuit construction - How is the oracle in Grover's search algorithm implemented? - Quantum Computing Stack Exchange</a></li></ul></li><li>[sorry just added this on 1/29] <a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Nielsen and Chuang</a><ul><li>p.188 -&gt; p.193</li></ul></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-01-22",
+   "due": "2022-01-29",
+   "date": "2022-01-22",
+   "presenter": null,
+   "track": "measurement"
+  },
+  {
+   "id": "12",
+   "num": 12,
+   "title": "Grover's Oracle, No Cloning Theorem & Gate Decomposition",
+   "video": "https://youtu.be/TZVaEv_p51Y",
+   "yt": "TZVaEv_p51Y",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1melsicZFb1GfhZCAh_d2W9WBCND1CtIp/view?usp=drivesdk",
+     "id": "1melsicZFb1GfhZCAh_d2W9WBCND1CtIp",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<p><img src=\"img/b6494ea8851b.png\" alt=\"\" loading=\"lazy\" style=\"max-width:624px\"></p><ul><li>Source: <i>Quantum Computation and Quantum Information (Nielsen &amp; Chuang)</i></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-01-29",
+   "due": "2022-02-05",
+   "date": "2022-01-29",
+   "presenter": null,
+   "track": "grover"
+  },
+  {
+   "id": "13",
+   "num": 13,
+   "title": "Gate Decomposition",
+   "video": "https://youtu.be/hMQHbQ6WuIU",
+   "yt": "hMQHbQ6WuIU",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1jJbPy0zlMnixbqikrBJiJ-wTOh9JqVE3/view?usp=drivesdk",
+     "id": "1jJbPy0zlMnixbqikrBJiJ-wTOh9JqVE3",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "grover"
+  },
+  {
+   "id": "14",
+   "num": 14,
+   "title": "CHSH Game",
+   "video": "https://youtu.be/xHB-B_4I2ig",
+   "yt": "xHB-B_4I2ig",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1wYjnpFXefS4tp6c6LaoqLvg8shXlwUqb/view?usp=drivesdk",
+     "id": "1wYjnpFXefS4tp6c6LaoqLvg8shXlwUqb",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "nonlocality"
+  },
+  {
+   "id": "15",
+   "num": 15,
+   "title": "Grover's Qiskit Implementation",
+   "video": "https://youtu.be/zBsCfvjGO6U",
+   "yt": "zBsCfvjGO6U",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1InnMjnjOztC4l4rebPmWZk6sdgUeXmrh/view?usp=drivesdk",
+     "id": "1InnMjnjOztC4l4rebPmWZk6sdgUeXmrh",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "grover"
+  },
+  {
+   "id": "16",
+   "num": 16,
+   "title": "Period Finding High Level",
+   "video": "https://youtu.be/VomM-YzT6VE",
+   "yt": "VomM-YzT6VE",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1qneWR5jxOwLIvH5gS1XrQwcSkVWFLAR7/view?usp=drivesdk",
+     "id": "1qneWR5jxOwLIvH5gS1XrQwcSkVWFLAR7",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "shor"
+  },
+  {
+   "id": "17",
+   "num": 17,
+   "title": "QFT",
+   "video": "https://youtu.be/eJKKFu0RmI8",
+   "yt": "eJKKFu0RmI8",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1LjFW8IVVrt8-lxTGtuXdfF23gi1s6j7w/view?usp=drivesdk",
+     "id": "1LjFW8IVVrt8-lxTGtuXdfF23gi1s6j7w",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>Your only homework for this week is to understand how each of the statements below follows from each other:</li></ul><p><img src=\"img/f12b047a5168.png\" alt=\"\" loading=\"lazy\" style=\"max-width:624px\"></p><ul><li>For the motivated, also understand how the circuit representation follows:<img src=\"img/34739abda3f4.png\" alt=\"\" loading=\"lazy\" style=\"max-width:528px\"></li></ul><ul><li>Preparation for next lecture<ul><li>Period finding in Nielsen and Chuang (page 215,216,217)</li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/15492/application-of-qft-to-order-finding\" target=\"_blank\" rel=\"noopener\">Application of QFT to Order-finding</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-03-06",
+   "due": "2022-03-12",
+   "date": "2022-03-06",
+   "presenter": null,
+   "track": "shor"
+  },
+  {
+   "id": "18",
+   "num": 18,
+   "title": "Period Finding",
+   "video": "https://youtu.be/BWFPMGITYlw",
+   "yt": "BWFPMGITYlw",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1nqHYdF2leako-JdRWfEIxDLeUrlTJzBL/view?usp=drivesdk",
+     "id": "1nqHYdF2leako-JdRWfEIxDLeUrlTJzBL",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>Show that <img src=\"img/1326af68bc25.png\" alt=\"\" loading=\"lazy\"> for any s<ol><li>Show this using geometric SUM</li><li>OR show it using unit circle (expand e^(i theta) = cos(theta) + i sin(theta))</li><li>OR just show it for a small r=4 or r=5</li></ol></li><li>Book exercises: <a href=\"https://serab.net/docs/qcqi/chapter5/#512\" target=\"_blank\" rel=\"noopener\">solutions here</a><ol><li>Exercise 5.9, 5.10, 5.11, 5.14</li></ol></li><li>Read the continued fractions algorithm in the book<ol><li>The explanation is pretty lacking tbh, particularly with respect to how you get s/r.</li><li>This helps: <a href=\"https://pi.math.cornell.edu/~gautam/ContinuedFractions.pdf\" target=\"_blank\" rel=\"noopener\">https://pi.math.cornell.edu/~gautam/ContinuedFractions.pdf</a></li></ol></li><li>For the motivated<ol><li>Book exercises: 5.12,5.13</li></ol></li></ol><h4>(Daniel Sank) Lecture 2 Homework: assigned on 03/27/2022, due 04/04/2022</h4><ul><li>Write down the Hamiltonian and Lagrangian for an LC circuit</li><li>Try to write down the Lagrangian equations and the Hamiltonian-Jacobi equations for the LC circuit.<ul><li>Do the relationships you got make sense?</li></ul></li><li>Resources for topics covered:<ul><li><a href=\"https://www.youtube.com/watch?v=0DHNGtsmmH8\" target=\"_blank\" rel=\"noopener\">Lagrangian and Hamiltionian Mechanics in Under 20 minutes</a></li><li><a href=\"https://en.wikipedia.org/wiki/LC_circuit\" target=\"_blank\" rel=\"noopener\">LC Circuit</a></li><li>Precursor to QM Harmonic Oscillator:<ul><li><a href=\"https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2016/lecture-notes/MIT8_04S16_LecNotes1.pdf\" target=\"_blank\" rel=\"noopener\">Lecture 1 is good for Schrodinger Equation Stuff</a></li><li><a href=\"https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2016/lecture-notes/\" target=\"_blank\" rel=\"noopener\">All remaining Lectures</a></li><li>https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator</li></ul></li></ul></li></ul><h4>Pre-Final Homework</h4><ol><li>As a preparation for the final homework where you pick your topic of choice to study and explain, we picked simpler topics where you can practice understanding yourself and explaining<ol><li>Topic 1: Period Finding (<b>Isaac</b>)<ol><li>Optional more content if you have more time:<ol><li>Discussing the Hidden Subgroup Problem and how period finding relates to it</li><li>More specifically, what’s a Group, a Subgroup and how Period finding allows us to find the generator set of the hidden subgroup.</li></ol></li></ol></li><li>Topic 2: Quantum Fourier Transforms (<b>Yujie</b>)</li><li>Topic 3: Shor’s Factoring Algorithm (<b>Nils</b>)</li><li>Note that topic 2 depends on topic 1 and topic 3 depends on topic 2</li></ol></li><li>Resources<ol><li><a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Information and Quantum Computation</a></li><li>Lecture <a href=\"https://www.youtube.com/watch?v=iXs6LNdQRjg&amp;list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz&amp;index=18\" target=\"_blank\" rel=\"noopener\">14</a>,<a href=\"https://www.youtube.com/watch?v=WE4oZ8fdBT4&amp;list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz&amp;index=18\" target=\"_blank\" rel=\"noopener\">15</a>,<a href=\"https://www.youtube.com/watch?v=P1gW_SPxjlU&amp;list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz&amp;index=19\" target=\"_blank\" rel=\"noopener\">16</a></li><li><a href=\"https://www.youtube.com/watch?v=SrBSmTkQo40&amp;list=PL74Rel4IAsETUwZS_Se_P-fSEyEVQwni7&amp;index=36\" target=\"_blank\" rel=\"noopener\">Lecture 9 --&gt; 10.3</a></li></ol></li><li>Note this will take time, try to prep a week before and ask questions in office hours if you have any questions.</li></ol>",
+   "homework_shared_with": [],
+   "assigned": "2022-03-12",
+   "due": "2022-03-19",
+   "date": "2022-03-12",
+   "presenter": null,
+   "track": "shor"
+  },
+  {
+   "id": "24",
+   "num": 24,
+   "title": "Draper Adder",
+   "video": "https://youtu.be/xhS3954QpnM",
+   "yt": "xhS3954QpnM",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1GYR5BCZHHjvmM28ZPoQTn14G0kohSfHc/view?usp=drivesdk",
+     "id": "1GYR5BCZHHjvmM28ZPoQTn14G0kohSfHc",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><h4>For the motivated</h4><ul><li>Read: Draper Adder <a href=\"https://arxiv.org/pdf/quant-ph/0008033.pdf\" target=\"_blank\" rel=\"noopener\">arXiv:quant-ph/0008033v1 7 Aug 2000</a><ul><li>Highlights:<ul><li>Approximate QFT, Approximate Draper</li><li>You can parallelize Draper Adder since all rotations commute!</li></ul></li></ul></li></ul><h4>Homework</h4><ul><li>Draw the circuit for the Draper Adder to add |01&gt; and |01&gt; and show that you will get the value |10&gt;<ul><li>Notice how the carryover operation will work</li><li>Now do the same for |10&gt; and |10&gt; and show that you will get |00&gt;, notice how mod works the same way a carryover works</li></ul></li><li>Quantum Counting Primer:<ul><li>Review Phase Estimation (see page 221, section 5.2 of <a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Computation and Quantum Information</a>) or lecture 18.</li><li>Understand how equations 6.8, 6.9 result in 6.10<ul><li><img src=\"img/0d5825b1eb02.png\" alt=\"\" loading=\"lazy\" style=\"max-width:461px\"></li></ul></li><li>Complete exercise 6.3:<ul><li><img src=\"img/1a0846751211.png\" alt=\"\" loading=\"lazy\" style=\"max-width:454px\"></li><li><img src=\"img/33726fc90590.png\" alt=\"\" loading=\"lazy\" style=\"max-width:469px\"></li></ul></li></ul></li></ul><h4>For the motivated</h4><ul><li>Implement the Draper QFT adder<ul><li>Solution: <a href=\"https://qiskit.org/documentation/_modules/qiskit/circuit/library/arithmetic/adders/draper_qft_adder.html\" target=\"_blank\" rel=\"noopener\">qiskit.circuit.library.arithmetic.adders.draper_qft_adder — Qiskit 0.36.1 documentation</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-04-23",
+   "due": "2022-04-30",
+   "date": "2022-04-23",
+   "presenter": null,
+   "track": "shor"
+  },
+  {
+   "id": "25",
+   "num": 25,
+   "title": "Phase Estimation review and Quantum Counting",
+   "video": "https://youtu.be/4R_X6NtLsWM",
+   "yt": "4R_X6NtLsWM",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1NHNZDwT59GC_Lf0WMt3a7xGMeHO0WJ-U/view?usp=drivesdk",
+     "id": "1NHNZDwT59GC_Lf0WMt3a7xGMeHO0WJ-U",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Homework</h4><ul><li>Do Lecture 24’s Homework</li><li>Think/research for the <a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2022.04-apr/challenge-2022.04-apr.ipynb\" target=\"_blank\" rel=\"noopener\">QOSF April challenge</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-04-30",
+   "due": "2022-05-07",
+   "date": "2022-04-30",
+   "presenter": null,
+   "track": "shor"
+  },
+  {
+   "id": "26",
+   "num": 26,
+   "title": "Brainstorming for QOSF April 2022 Challenge",
+   "video": "https://youtu.be/mNhGDHPR-Ec",
+   "yt": "mNhGDHPR-Ec",
+   "note": null,
+   "notes": [
+    {
+     "label": "Doc notes",
+     "url": "https://docs.google.com/document/d/1Th4ZTRxqkSqEIt5CX16-XkuXM6LNfVkHOdOtOKB-tFs/edit?usp=drivesdk",
+     "id": "1Th4ZTRxqkSqEIt5CX16-XkuXM6LNfVkHOdOtOKB-tFs",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "challenges"
+  },
+  {
+   "id": "27",
+   "num": 27,
+   "title": "Adiabatic Quantum Computation",
+   "video": "https://youtu.be/5RaVWF7bFkY",
+   "yt": "5RaVWF7bFkY",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1BCbqVGERwtCxxXU0EKPtf3LiuRQbQYU9/view?usp=drivesdk",
+     "id": "1BCbqVGERwtCxxXU0EKPtf3LiuRQbQYU9",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><ul><li>Read: <a href=\"https://quantumcomputing.stackexchange.com/questions/2358/can-adiabatic-quantum-computing-be-faster-than-grovers-algorithm?rq=1\" target=\"_blank\" rel=\"noopener\">Can adiabatic quantum computing be faster than Grover's algorithm? - Quantum Computing Stack Exchange</a></li><li>Read: some math/physics ideas around hamiltonians and exponentiating them <a href=\"https://www.scottaaronson.com/qclec/25.pdf\" target=\"_blank\" rel=\"noopener\">25.pdf (scottaaronson.com)</a><ul><li><a href=\"https://en.wikipedia.org/wiki/Hermitian_matrix\" target=\"_blank\" rel=\"noopener\">Why hermitian matrices have real eigenvalues?</a></li></ul></li><li>Edward Farhi’s paper on QAA: <a href=\"https://arxiv.org/pdf/quant-ph/0001106.pdf\" target=\"_blank\" rel=\"noopener\">arXiv:quant-ph/0001106v1 28 Jan 2000</a></li><li><a href=\"https://arxiv.org/pdf/2101.08448.pdf\" target=\"_blank\" rel=\"noopener\">Noisy intermediate-scale quantum (NISQ) algorithms</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-05-21",
+   "due": "2022-05-28",
+   "date": "2022-05-21",
+   "presenter": null,
+   "track": "optimization"
+  },
+  {
+   "id": "28",
+   "num": 28,
+   "title": "QAOA",
+   "video": "https://youtu.be/oxr_182wfXE",
+   "yt": "oxr_182wfXE",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1-fk7CvaQP4MEuotZrL2QDWNjdGDoi--R/view?usp=drivesdk",
+     "id": "1-fk7CvaQP4MEuotZrL2QDWNjdGDoi--R",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><ul><li>Read Farhi’s paper on QAOA: <a href=\"https://arxiv.org/pdf/1411.4028.pdf\" target=\"_blank\" rel=\"noopener\">https://arxiv.org/pdf/1411.4028.pdf</a></li><li>Read: <a href=\"https://arxiv.org/pdf/1812.01041.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Approximate Optimization Algorithm: Performance, Mechanism, and Implementation on Near-Term Devices</a></li><li>Farhi’s lecture on QAOA: <a href=\"https://www.youtube.com/watch?v=J8y0VhnISi8&amp;t=1855s\" target=\"_blank\" rel=\"noopener\">Eddie Farhi: A Quantum Approximate Optimization Algorithm</a></li><li><a href=\"https://arxiv.org/pdf/1602.07674.pdf\" target=\"_blank\" rel=\"noopener\">Why Farhi thinks QAOA can demonstrate quantum supremacy</a></li><li><a href=\"https://docs.google.com/document/d/1RwBdItt3-4-D1epMErSpIrP7MJcybgxv9LhLjhH5jiQ/edit#\" target=\"_blank\" rel=\"noopener\">Expectation of Hamiltonian</a></li><li>QAOA Code tutorial<ul><li><a href=\"https://qiskit.org/textbook/ch-applications/qaoa.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/textbook/ch-applications/qaoa.html</a></li><li><a href=\"https://github.com/mstechly/quantum_tsp_tutorials\" target=\"_blank\" rel=\"noopener\">mstechly/quantum_tsp_tutorials: This repository contains code with tutorials of how to approach optimization problems using quantum computing. (github.com)</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-05-28",
+   "due": "2022-06-03",
+   "date": "2022-05-28",
+   "presenter": null,
+   "track": "optimization"
+  },
+  {
+   "id": "29",
+   "num": 29,
+   "title": "HHL",
+   "video": "https://youtu.be/AXoVhc_1EN8",
+   "yt": "AXoVhc_1EN8",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1dxlVKG0MNfmhH40JdxhO0Hb3LQPOFpI8/view?usp=drivesdk",
+     "id": "1dxlVKG0MNfmhH40JdxhO0Hb3LQPOFpI8",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><ul><li><a href=\"https://docs.google.com/document/d/165NA9o8AFZQzMM6gIu8Ef2v6UQ0J49eh0pfvG7xN9EQ/edit#\" target=\"_blank\" rel=\"noopener\">HHL Algorithm Notes - Google Docs</a></li></ul><h4>Homework</h4><ul><li>Given A =<img src=\"img/3f38756629c3.png\" alt=\"\" loading=\"lazy\"><ul><li>Compute e^(iAt)</li><li>Compute A^-1<ul><li>Otherwise simply verify that A A^-1 = I (using the A^-1 provided in the lecture notes)</li></ul></li></ul></li><li>Suppose A and B are sparse, well-conditioned N ×N matrices, and we can efficiently generate vector b ∈ R N as a quantum state |b&gt; How can we efficiently find the solution to the linear system ABx = b as a quantum state |x&gt;</li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-06-03",
+   "due": "2022-06-10",
+   "date": "2022-06-03",
+   "presenter": null,
+   "track": "optimization"
+  },
+  {
+   "id": "30",
+   "num": 30,
+   "title": "Quantum Key Distribution BB84",
+   "video": "https://youtu.be/Pn3d8x34KPQ",
+   "yt": "Pn3d8x34KPQ",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1D45HBCu9ixWx1oX2ASvJtAh0Osg7RfAU/view?usp=drivesdk",
+     "id": "1D45HBCu9ixWx1oX2ASvJtAh0Osg7RfAU",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li><a href=\"https://docs.google.com/document/d/1BqwRi-DAnsobrNYxzRCMl11X5yp54Nhmu8slub42ixI/edit\" target=\"_blank\" rel=\"noopener\">Quantum Key Distribution Lecture Notes</a></li><li>Relevant Links:<ul><li>Qiskit textbook explanation of algorithm: <a href=\"https://qiskit.org/textbook/ch-algorithms/quantum-key-distribution.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/textbook/ch-algorithms/quantum-key-distribution.html</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/142/advantage-of-quantum-key-distribution-over-post-quantum-cryptography\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/142/advantage-of-quantum-key-distribution-over-post-quantum-cryptography</a></li><li><a href=\"https://www.newscientist.com/article/2245885-chinas-quantum-satellite-helps-send-secure-messages-over-1200km/#:~:text=China%20launched%20its%20Micius%20quantum,of%20the%20distance%20between%20them\" target=\"_blank\" rel=\"noopener\">https://www.newscientist.com/article/2245885-chinas-quantum-satellite-helps-send-secure-messages-over-1200km/#:~:text=China%20launched%20its%20Micius%20quantum,of%20the%20distance%20between%20them</a>.</li><li><a href=\"https://github.com/upsideon/qkd-qchack-2022/blob/main/qkd/src/cascade.py\" target=\"_blank\" rel=\"noopener\">Cascade Algorithm implemented by Ian</a></li></ul></li><li>Reading: <a href=\"https://www.cs.miami.edu/home/burt/learning/csc424.202/vernam-and-perfect-secrecy.pdf\" target=\"_blank\" rel=\"noopener\">Proof of Vernam Cipher's security</a></li><li>Problem 1 from: <a href=\"http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/HW2.pdf\" target=\"_blank\" rel=\"noopener\">http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/HW2.pdf</a><ul><li>Solution: <a href=\"http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/HW2_solutions.pdf\" target=\"_blank\" rel=\"noopener\">http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/HW2_solutions.pdf</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-06-11",
+   "due": "2022-06-18",
+   "date": "2022-06-11",
+   "presenter": null,
+   "track": "crypto"
+  },
+  {
+   "id": "31",
+   "num": 31,
+   "title": "QAOA QOSF 2021 Aug Coding Challenge",
+   "video": "https://youtu.be/LaFQf1vnWY8",
+   "yt": "LaFQf1vnWY8",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1JhkCTkSn15iFCqeOCyEEejDEl84GyG3g/view?usp=drivesdk",
+     "id": "1JhkCTkSn15iFCqeOCyEEejDEl84GyG3g",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.08-aug/challenge-2021.08-aug.ipynb\" target=\"_blank\" rel=\"noopener\">QAOA Coding Challenge</a></li><li><a href=\"https://web.wpi.edu/Pubs/E-project/Available/E-project-051620-220950/unrestricted/Constructions_and_Applications_of_W-States.pdf\" target=\"_blank\" rel=\"noopener\">W state preparation</a> paper</li><li><a href=\"https://github.com/bubakazouba/spiny-quantum/blob/main/2021AugChallenge.py\" target=\"_blank\" rel=\"noopener\">Lecture QAOA code for W state preparation</a></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.08-aug/vic023/QOSF_Aug2021.ipynb\" target=\"_blank\" rel=\"noopener\">Submitted solution for VQA W state preparation</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": "2022-06-18",
+   "due": "2022-06-25",
+   "date": "2022-06-18",
+   "presenter": null,
+   "track": "challenges"
+  },
+  {
+   "id": "32",
+   "num": 32,
+   "title": "IBM Quantum Challenge Lights Out Grover’s",
+   "video": "https://youtu.be/YLBxcTLJpSM",
+   "yt": "YLBxcTLJpSM",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1pZerJPm2mDko6Ne7m9eFzcr8JEMT0Snt/view?usp=drivesdk",
+     "id": "1pZerJPm2mDko6Ne7m9eFzcr8JEMT0Snt",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li><a href=\"https://github.com/qiskit-community/IBMQuantumChallenge2020/blob/main/exercises/week-2/ex_2a_en.ipynb\" target=\"_blank\" rel=\"noopener\">Challenge</a> <a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/1-IBMQ-challenge-2020/solutions/week-2/ex_2a_solutions_en.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li><li><a href=\"https://people.math.carleton.ca/~kcheung/math/notes/MATH1107/wk04/04_solving_3x3_lights_out.html\" target=\"_blank\" rel=\"noopener\">Proof of number of solutions for the Lights out puzzle</a></li><li>Convince yourself that the Grover Diffusion operator is in fact what we coded in the lecture<ul><li><a href=\"https://qiskit.org/documentation/stubs/qiskit.circuit.library.GroverOperator.html\" target=\"_blank\" rel=\"noopener\">See full explanation here by Qiskit</a></li></ul></li><li>Convince yourself that CZ is the same as H^n CX H^n<ul><li>You can try convincing yourself first that Z = HXH</li></ul></li><li>Do the next 2b challenge: <a href=\"https://github.com/qiskit-community/IBMQuantumChallenge2020/blob/main/exercises/week-2/ex_2b_en.ipynb\" target=\"_blank\" rel=\"noopener\">IBM Quantum Challenge 2020 2b</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/1-IBMQ-challenge-2020/solutions/week-2/ex_2b_solutions_en.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "challenges"
+  },
+  {
+   "id": "33",
+   "num": 33,
+   "title": "Quiz",
+   "video": null,
+   "yt": null,
+   "note": "No recording (quiz)",
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1YvV-gmztkT8WNaz_oT7LnEE6gIqV_9g0/view?usp=drivesdk",
+     "id": "1YvV-gmztkT8WNaz_oT7LnEE6gIqV_9g0",
+     "kind": "PDF"
+    },
+    {
+     "label": "Doc notes",
+     "url": "https://docs.google.com/document/d/1Z3ywnbTGp27J1QWbjJo59pUb9ykTD_D_S4jNIUMLfa4/edit?usp=drivesdk",
+     "id": "1Z3ywnbTGp27J1QWbjJo59pUb9ykTD_D_S4jNIUMLfa4",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "<ul><li>Look at <a href=\"https://docs.google.com/document/d/1Z3ywnbTGp27J1QWbjJo59pUb9ykTD_D_S4jNIUMLfa4/edit#heading=h.aui3kif5jir6\" target=\"_blank\" rel=\"noopener\">quiz</a> and understand problems</li><li>Read up on unitary matrices</li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "challenges"
+  },
+  {
+   "id": "34",
+   "num": 34,
+   "title": "POVMs",
+   "video": "https://youtu.be/5o486pEXDrw",
+   "yt": "5o486pEXDrw",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1seCpe5w0SZ6BMR-VQDmqsNPxYxOslUx5/view?usp=drivesdk",
+     "id": "1seCpe5w0SZ6BMR-VQDmqsNPxYxOslUx5",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>Problems from Nielsen &amp; Chuang<ul><li>2.34 (Read the paragraph right before the problem first)</li><li>2.36</li><li>2.56</li></ul></li><li>Solutions can be found <a href=\"https://serab.net/docs/qcqi/chapter2/#236\" target=\"_blank\" rel=\"noopener\">here</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "measurement"
+  },
+  {
+   "id": "35",
+   "num": 35,
+   "title": "Mitiq issue kick-off",
+   "video": null,
+   "yt": null,
+   "note": "No recording (Mitiq issue discussion)",
+   "notes": [],
+   "homework": "<ul><li>Work on your <a href=\"https://docs.google.com/document/d/1IDkl04n4on8BasXKa0cZZ7XdfYY55wMbMa5foxpsU4A/edit\" target=\"_blank\" rel=\"noopener\">tasks</a> for the issue</li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "36",
+   "num": 36,
+   "title": "Intro to Error Correction",
+   "video": "https://youtu.be/GjKLuSH3lOs",
+   "yt": "GjKLuSH3lOs",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1ExP4k5zupQexUiB8bHnTFykSd7MdB5H6/view?usp=drivesdk",
+     "id": "1ExP4k5zupQexUiB8bHnTFykSd7MdB5H6",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ul><li>Watch lectures:<ul><li>Measurements (lecture 11)</li><li>POVMs (lecture 34) measurements</li></ul></li><li>Calculate<ul><li>|0&gt;&lt;1|, |0&gt;&lt;0|, |1&gt;&lt;0|, |1&gt;&lt;1|</li><li>&lt;1|1&gt;, &lt;1|0&gt;, &lt;+|0&gt;, &lt;1|-&gt;</li><li>&lt;01|10&gt;, &lt;11|00&gt;</li></ul></li><li>Measurements<ul><li>What’s the expected value of the observables X for the following states:<ul><li>|0&gt;, |1&gt;, |+&gt;, a|0&gt; + b|1&gt;</li></ul></li><li>Repeat the above question for the observable Z</li><li>What do you get if you measure the observable ZZ on the state |11&gt;? What about the state |01&gt;?</li><li>What do you get if you measure the observables ZZI and IZZ on the states a|000&gt; + b|111&gt;, a|001&gt; + b|110&gt;, a|010&gt; + b|101&gt;, a|100&gt; + b|011&gt;</li><li>For the following projective measurement set, what happens to the state a|001&gt; + b|110&gt; after measurement? And what are the possible outcomes with the corresponding probabilities?<ul><li>P_1 = |001&gt;&lt;001| + |110&gt;&lt;110|</li><li>P_2 = |000&gt;&lt;000| + |111&gt;&lt;111|</li><li>P_3 = |010&gt;&lt;010| + |101&gt;&lt;101|</li><li>P_4 = |100&gt;&lt;100| + |011&gt;&lt;011|</li></ul></li></ul></li><li>Ket notation<ul><li>Write |a&gt; in terms of &lt;a|</li><li>Is &lt;a|b&gt; always equal to &lt;b|a&gt; for any 2 arbitrary states?</li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "37",
+   "num": 37,
+   "title": "Continuing Error Correction",
+   "video": "https://youtu.be/Gmo8UyEaLfo",
+   "yt": "Gmo8UyEaLfo",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1IaVF4-iwXS22BuZHn1GkTlMXTv93-Stu/view?usp=drivesdk",
+     "id": "1IaVF4-iwXS22BuZHn1GkTlMXTv93-Stu",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<p><img src=\"img/0c22baa19d7f.png\" alt=\"\" loading=\"lazy\" style=\"max-width:624px\"></p><ul><li>Code the bit flip error correction circuit in Qiskit<ul><li>Test it with a few examples</li><li>Bonus: write some unit tests</li></ul></li><li>Write the error correction circuit for the phase flip error (Hint: Switching between the X and Z basis switches the phase and bit flip errors in those bases)</li><li>Optional reading: <a href=\"https://quantumcomputing.stackexchange.com/questions/14000/how-to-measure-syndromes-in-qec\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/14000/how-to-measure-syndromes-in-qec</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "38",
+   "num": 38,
+   "title": "Continuing Error Correction: Shor’s Code",
+   "video": "https://youtu.be/P02hpx2tx3g",
+   "yt": "P02hpx2tx3g",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/12N_MWnB4-SgTOj18eF9h4erF2mbORwNa/view?usp=drivesdk",
+     "id": "12N_MWnB4-SgTOj18eF9h4erF2mbORwNa",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>Do the following to convince yourself that Shor’s code works:<ol><li>What are the syndrome measurements (e.g., results of measuring XXXXXXIII, IIIXXXXXX, ZZIIIIIII, IZZIIIIII, etc.) if qubit 4 has a bit flip?</li><li>What about if qubit 7 has a bit and phase flip?</li><li>What is the state of the 9 qubits after an error of the following expression: E_1 = (X + Z+XZ) / sqrt(3)</li><li>What if there is no error?</li></ol></li><li>[Optional - Challenge from here: https://www.scottaaronson.com/qclec/ps11.pdf]<ol><li>Prove that any classical encoding of a single bit, which corrects an arbitrary single bit-flip error, requires at least 3 bits for the codewords. I.e., there is no such code using 2 bits</li><li>A weaker notion than an error-correcting code is an error-detecting code – one that detects whether an error has occurred, though not necessarily how to correct the error. Give a classical error-detecting code, which encodes 1 bit into 2 bits, and which detects a single bit-flip error.</li><li>Consider the quantum code |0_L&gt; = |00&gt; and |1_L&gt; = |11&gt;. Give an example of a qubit encoded using this code, as well as a single-qubit error on the encoded qubit, such that this code fails to detect even that an error has occurred.</li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "39",
+   "num": 39,
+   "title": "Finishing Shor’s Code",
+   "video": "https://youtu.be/HY25oRpE7Vw",
+   "yt": "HY25oRpE7Vw",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1-20AODSO-qry4ciT_HNf2zZRtZVMOvNf/view?usp=drivesdk",
+     "id": "1-20AODSO-qry4ciT_HNf2zZRtZVMOvNf",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>Review Shor’s code circuit (We’ll call this one the <b>Implicit Syndrome Measurements</b><b> (ISM)</b>)<img src=\"img/56602a4c9a74.png\" alt=\"\" loading=\"lazy\" style=\"max-width:453px\"></li><li>Review Shor’s code circuit in the diagram on <a href=\"https://young.physics.ucsc.edu/150/error_corr.pdf\" target=\"_blank\" rel=\"noopener\">page 20</a> for <b>explicit syndrome measurements (ESM)</b></li><li>[For the <b>ISM</b> circuit] What is the final state of the circuit (all 9 qubits), if the error was X on the 5th qubit? What is the final state if the error was a Z on the 1st qubit?</li><li>[For the <b>ESM</b> circuit] What would be the state of the syndrome qubits if there was a X error on the 5th qubit? What about if there was a Z on the 1st qubit?</li><li>Prep for the next lecture<ol><li>Optional watching: <a href=\"https://www.youtube.com/watch?v=eixCGqdlGxQ\" target=\"_blank\" rel=\"noopener\">Error Correcting Codes 1: Introduction + Hamming (7,4) Code - YouTube</a></li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "40",
+   "num": 40,
+   "title": "Coding Shor’s Code",
+   "video": "https://youtu.be/QgUQYd-o0xs",
+   "yt": "QgUQYd-o0xs",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1-QojGRwnFaKBY_icMhT09mhRD6T9GcGg/view?usp=drivesdk",
+     "id": "1-QojGRwnFaKBY_icMhT09mhRD6T9GcGg",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>If you weren’t in class, please try to implement Shor’s code, or at least, please watch the lecture video/review the code.</li><li>Go through eigenchris’ videos on classical codes: <a href=\"https://www.youtube.com/watch?v=eixCGqdlGxQ&amp;t=1042s\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=eixCGqdlGxQ&amp;t=1042s</a></li><li>[Optional]:<ol><li>Try to implement the ISM measurements given in: <a href=\"https://young.physics.ucsc.edu/150/error_corr.pdf\" target=\"_blank\" rel=\"noopener\">https://young.physics.ucsc.edu/150/error_corr.pdf</a> in code.</li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "41",
+   "num": 41,
+   "title": "Hamming (7,4,3) Code",
+   "video": "https://youtu.be/DMknz9NiJS4",
+   "yt": "DMknz9NiJS4",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1Cei4P9AxkSh-kBvTD0pzw-U1FkiahDUq/view?usp=drivesdk",
+     "id": "1Cei4P9AxkSh-kBvTD0pzw-U1FkiahDUq",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>[Prep for next class] Group / Pauli Group<ol><li>Understand what a group is and what a Pauli Group is:<ol><li><a href=\"https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes18.pdf\" target=\"_blank\" rel=\"noopener\">https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes18.pdf</a> (see section 2A)</li></ol></li></ol></li><li>[Optional Review]<ol><li>Prove that for every vector <b>u</b> in a hamming space, exactly half of the vectors in the hamming space would satisfy the parity check equation <b>u</b> . <b>v</b> = 0 (remember we take mod 2 for the inner product)</li><li>Prove that if d &gt; 2t (as in Wt(u+v) &gt; 2<b>t</b> for any u,v) and Wt(e1) &lt;= <b>t</b> and Wt(e2) &lt;= <b>t</b> then Wt(u+v+e1+e2) &gt; 0<ol><li>What does <b>t</b> represent here?</li></ol></li><li>(7,4,3) code<ol><li>What does (7,4,3) code mean? What do the numbers 7,4,3 represent?</li><li>What are the dimensions of the generator matrix <b>G</b>? What do the rows in this matrix represent?<ol><li>How do you use a generator matrix to output a code word?</li></ol></li><li>What are the dimensions of the parity check matrix <b>H</b>? What do the rows in this matrix represent?<ol><li>How do you use the matrix H to detect or correct an error?</li></ol></li><li>What property must <b>H</b> and <b>G</b> satisfy?</li></ol></li></ol></li><li>[Optional Prep Resources]<ol><li><a href=\"https://www.youtube.com/watch?v=WJr7jqpjge0&amp;list=PLkespgaZN4gmu0nWNmfMflVRqw0VPkCGH&amp;index=71\" target=\"_blank\" rel=\"noopener\">IQIS Lecture 8.1 — Overview of quantum error correction - YouTube</a></li><li><a href=\"https://courses.cs.washington.edu/courses/cse599d/06wi/\" target=\"_blank\" rel=\"noopener\">CSE 599d - Quantum Computing (washington.edu)</a></li><li><a href=\"https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes18.pdf\" target=\"_blank\" rel=\"noopener\">Dave Bacon Lecture 18 QEC</a></li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "42",
+   "num": 42,
+   "title": "Stabilizer Codes",
+   "video": "https://youtu.be/mE17nPM2dY4",
+   "yt": "mE17nPM2dY4",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1OfJppnGLXJgMRM6QPEdM3Vab9shjkOjm/view?usp=drivesdk",
+     "id": "1OfJppnGLXJgMRM6QPEdM3Vab9shjkOjm",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><p><a href=\"http://theory.caltech.edu/~preskill/ph229/notes/chap7.pdf\" target=\"_blank\" rel=\"noopener\">chap7.dvi (caltech.edu)</a></p><p><a href=\"https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes18.pdf\" target=\"_blank\" rel=\"noopener\">https://courses.cs.washington.edu/courses/cse599d/06wi/lecturenotes18.pdf</a></p><h4>Homework</h4><ol><li>Prove that Tr(M1 tensor M2) = Tr(M1) Tr(M2) (for any matrices M1, M2)</li><li>Why is 𝐼 always in a stabilizer group? But why isn’t it in the generator of the group?<ol><li>𝐼 is always in the stabilizer group because the inverse of each element exists in the group (by the definition of a group, <a href=\"https://mathworld.wolfram.com/Group.html\" target=\"_blank\" rel=\"noopener\">see number 4</a>)</li><li>𝐼 is not in the generator of the group because it can always be generated using a different generator element A and its inverse A<sup>-1</sup>. Note that A<sup>-1</sup> is generated using A.</li></ol></li><li>Why can’t -𝐼 be in a stabilizer group?<ol><li>If -𝐼 is in a stabilizer group, then nothing can be in the +1 eigenspace since -𝐼|Ψ&gt; = -|Ψ&gt;</li></ol></li><li>[Optional Review]<ol><li>The overarching question of the lecture is:<ol><li>How do we define the conditions when it’s possible to correct errors?<ol><li>What errors can we tolerate?</li></ol></li><li>How many qubits do we need to represent one logical qubit?</li><li>How do we encode our logical qubit to the stabilizer code?</li><li>How do we apply logical operations on our codespace instead of decoding and re-encoding our state between operations?</li><li>How do we eventually detect and correct the error?</li></ol></li><li>Terminology<ol><li>Subspace: A subset of a vector space that also satisfies the criteria of a vector space (closed under addition)</li><li>Code Subspace: A subspace of the Hilbert space whose elements are in the +1 eigenspace of <b>all</b> the stabilizer group elements. (Note an element of the Hilbert space or the code subspace is a quantum state).<ol><li>In other words: the code subspace is the set of “valid” error-free encoded states for our stabilizer code.</li></ol></li><li>Code word: An element (state) within the code subspace.</li><li>Stabilizer: A Pauli operator that helps us define our code subspace.<ol><li>Criteria: All stabilizers must commute with each other, and -𝐼 can’t be a stabilizer.</li></ol></li><li>Stabilizer Generator: The set of generators of the stabilizer group.</li><li>Stabilizer Group: The group that’s generated by multiplying all combinations of the stabilizer generator.</li><li>Errors: Errors in stabilizer codes are Pauli operators that anti-commute with <b>some </b>of the stabilizers.</li></ol></li><li>Quantum error-correcting criteria: <img src=\"img/8257a13b47b6.png\" alt=\"\" loading=\"lazy\" style=\"max-width:222px\"></li><li>Proof of necessity:<img src=\"img/c3d353af44e6.png\" alt=\"\" loading=\"lazy\" style=\"max-width:497px\"></li><li>Pauli Group Properties<ol><li><img src=\"img/75614fd855eb.png\" alt=\"\" loading=\"lazy\" style=\"max-width:573px\"></li></ol></li><li>The trace of a matrix is the sum of the diagonal elements, which is = the sum of eigenvalues (since the trace is basis independent).</li><li>Each element of the Stabilizer group splits the basis of the Hilbert space into two halves<ol><li>½ where the states are in the +1 eigenspace</li><li>½ where the states are in the -1 eigenspace</li></ol></li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "43",
+   "num": 43,
+   "title": "Stabilizer Codes Pt. 2",
+   "video": "https://youtu.be/AuRGk0GlKfQ",
+   "yt": "AuRGk0GlKfQ",
+   "note": null,
+   "notes": [
+    {
+     "label": "Doc notes",
+     "url": "https://docs.google.com/document/d/1i7h35rXJlDYDOyT2CU3cP9xum68Cbzmsq7kuS6t3rXk/edit?usp=drivesdk",
+     "id": "1i7h35rXJlDYDOyT2CU3cP9xum68Cbzmsq7kuS6t3rXk",
+     "kind": "Doc"
+    },
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1Ogezb800dfMGtfXaNfdXp0Kq0Q-zETIw/view?usp=drivesdk",
+     "id": "1Ogezb800dfMGtfXaNfdXp0Kq0Q-zETIw",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>Why do all stabilizers commute?<ol><li>They are all Pauli matrices, which either commute or anti-commute. S<sub>i</sub>S<sub>j</sub>|Ψ&gt;=S<sub>i</sub>|Ψ&gt;=|Ψ&gt;=S<sub>i</sub>|Ψ&gt;=S<sub>j</sub>S<sub>i</sub>|Ψ&gt;</li></ol></li><li>What’s the difference between the stabilizers and the stabilizer generators?<ol><li>Stabilizer generators generate the whole stabilizer group (by multiplying them by each other)</li></ol></li><li>Prove that the trace of <b>any </b>matrix is the sum of its eigenvalues<ol><li><a href=\"https://math.stackexchange.com/questions/546155/proof-that-the-trace-of-a-matrix-is-the-sum-of-its-eigenvalues\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ol></li><li>Show that this control-Pauli circuit can be used to measure if |Ψ&gt; is in the +1 or -1 eigenspace of the Pauli operator P (note that |Ψ&gt; describes the state of n qubits)<ol><li>It can also be used for the preparation of +1, -1 states.</li><li><img src=\"img/60925186a9ce.png\" alt=\"\" loading=\"lazy\" style=\"max-width:347px\"></li></ol></li><li><i>Add a specific example here like the C-ZZZZZ to </i><i>prepare a general state</i></li><li><b>Topics to be covered next lecture</b><ol><li><b>Do the stabilizer elements need to commute?</b></li><li><b>How many normalizer elements do we get?</b></li><li><b>Quotient groups</b></li><li><b>Preparations of stabilizer states using the C-Pauli circuits</b></li><li><b>Universal X and Z gate?</b></li></ol></li><li><b>Review</b><ol><li>We define the Projector P<sub>i</sub> = ½ (I + S<sub>i</sub>) -&gt; projects us into the +1 eigenvalue subspace of S<sub>1</sub> [Takes a minute to prove]</li><li>Tr(P<sub>i</sub> S<sub><i>j</i></sub>) = 0 <b>Proof:</b> Tr(½ S<sub>j</sub> + ½ S<sub>i</sub> S<sub>j</sub>) = ½ Tr(S<sub>j</sub>) + ½ Tr(S<sub>i</sub> S<sub>j</sub>) = 0 + 0<ol><li>S<sub>j</sub> is a pauli matrix so Tr(S<sub>j</sub>) = 0</li><li>S<sub>i</sub> S<sub>j</sub> will give us another element in S which also have Trace 0</li></ol></li><li>Remember that S<sub>i</sub> splits our code space into two 2^(n-1) eigenspaces, +1 and -1</li><li>S<sub>i</sub> and S<sub>j</sub> divide our code space into 4 2^(n-1) eigenspaces, <b>(+1,+1)</b>, (-1,+1), (+1,-1), (-1,-1)<ol><li><img src=\"img/76c5d02d0193.png\" alt=\"\" loading=\"lazy\" style=\"max-width:372px\"></li></ol></li><li>Normalizers N of a group S are elements P such that Ps=sP (where P ∈ P<sup>n </sup>and s ∈ S)<ol><li>N/P (i.e., elements of P that are not stabilizers) can be treated as logical Pauli operators.</li><li>Note that P|Ψ&gt;=PS|Ψ&gt;=SP|Ψ&gt;<ol><li>Let P|Ψ&gt; = |Φ&gt;</li><li>|Φ&gt; = PS|Ψ&gt;=S|Φ&gt;</li><li>Then S|Φ&gt;=|Φ&gt; so |Φ&gt; is a code word (i.e, it has a +1 eigenvalue for our stabilizer group)</li><li>E.g XXX|000&gt; = |111&gt; for the ZZI, ZIZ stabilizer group</li></ol></li><li>Elements of a normalizer group represent different operators on our encoded space</li></ol></li><li>If you want to implement <b>any</b> (logical) single qubit gate. You just need to implement a (logical) X gate and a (logical) Z gate, and you are done.</li><li>For example, for the ZZI, ZIZ stabilizer generators<ol><li>N-S = i<sup>k</sup>(XXX, YYX, YXY, YXX, …)</li></ol></li><li><a href=\"https://en.wikipedia.org/wiki/Five-qubit_error_correcting_code\" target=\"_blank\" rel=\"noopener\">Example</a> for a |0<sub>L</sub>&gt; and |1<sub>L</sub>&gt; for the 5 qubit error correcting code</li><li><img src=\"img/4172dce8ab8f.png\" alt=\"\" loading=\"lazy\" style=\"max-width:251px\"></li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "44",
+   "num": 44,
+   "title": "Toric Code",
+   "video": "https://youtu.be/s5ZEfDI-xIg",
+   "yt": "s5ZEfDI-xIg",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/10E8-lmJSdBDKCh-L8GCxJZrAch6lwvBL/view?usp=drivesdk",
+     "id": "10E8-lmJSdBDKCh-L8GCxJZrAch6lwvBL",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<ol><li>Prove that the star A(R) and the placquet B(R’) operators commute<ol><li>Hint 1: consider the situations when R = R’ and when R != R’</li><li>Hint 2: [X,Z] = -1</li></ol></li><li>How many qubits does your stabilizer code protect if your Hilbert space is of dimension 2<sup>N </sup>and you have k stabilizer generators?<ol><li>The stabilizer code subspace has a dimension of 2<sup>N-k</sup> so it has N-k qubits</li></ol></li><li><b>Useful resources</b><ol><li>First 2 pages of the original paper <a href=\"https://arxiv.org/pdf/quant-ph/9707021.pdf\" target=\"_blank\" rel=\"noopener\">https://arxiv.org/pdf/quant-ph/9707021.pdf</a></li><li><a href=\"https://github.com/The-Singularity-Research/QISKit-Surface-Codes\" target=\"_blank\" rel=\"noopener\">The-Singularity-Research/QISKit-Surface-Codes: QISKit implementation of surface codes (github.com)</a></li></ol></li><li><b>Questions for next time</b><ol><li>How to implement logical gates?<ol><li>What are all the logical gates we can implement with</li></ol></li><li>How do we compute the fidelity of the code?<ol><li>How do we compare it with Shor’s code?</li></ol></li></ol></li><li><b>Review</b><ol><li>Toric code is a stabilizer code (not a universal quantum computer)</li><li>Stores information non locally</li><li>It has a restricted set of operations</li><li>Qubit for each edge of the lattice<ol><li><img src=\"img/1d1d3391e1e9.png\" alt=\"\" loading=\"lazy\" style=\"max-width:516px\"></li><li>Properties of A(R) and B(R)<ol><li>Closed loops</li><li>Undirected loops</li><li>A<sup>2</sup>(R) = B<sup>2</sup>(R) = I</li><li>[A(R), B(R)] = 0</li></ol></li><li>The code is defined by LxL lattice on a torus<ol><li>L<sup>2</sup> unit cells</li><li>2L<sup>2</sup> = N qubits</li><li>TOR(L) = C = {|Ψ&gt; ∈ H : A(R)|Ψ&gt; = |Ψ&gt;, B(R)|Ψ&gt; = |Ψ&gt;}<ol><li>This hilbert space has a dimension of 2<sup>N</sup></li></ol></li><li>We can count the number of logical qubits by answering the question: “How many stabilizer generators we have”</li><li>Note that not all of our stabilizers are independent, if they were all independent we wouldn’t be protecting any logical qubits because we would have a hilbert space of size 2^N and N (independent) stabilizers<ol><li>We would have N stabilizers because there are L<sup>2</sup> A’s and L<sup>2</sup> B’s = 2L<sup>2</sup> = N</li></ol></li><li>Property: all Π A(R) = Π B(R) = 𝐼</li><li>At least one A(R) is dependent and at least one B(R) is dependent</li><li>So we have 2L<sup>2</sup> - 2 = N - 2 independent stabilizers</li><li>So dimension of code word subspace = 2<sup>N-(N-2)</sup> = 2<sup>2</sup> = 4<ol><li>So we have 2 qubits</li></ol></li></ol></li><li>Π A(R) = I since we are working with a torus<ol><li>Go through this exercise yourself with an L=3, we have 9 unit cells, if you multiply all A(R<sub>i</sub>) together</li><li>Step 1<img src=\"img/eae3d02fd206.png\" alt=\"\" loading=\"lazy\" style=\"max-width:219px\"></li><li>Step 2<img src=\"img/117a1d6b5e16.png\" alt=\"\" loading=\"lazy\" style=\"max-width:383px\"></li></ol></li><li>How to construct any of the |Ψ&gt; in the code subspace?<ol><li>This state is a state in the code subspace |Ψ&gt; = Π<sub>R</sub>|1 + A(R)&gt; |0&gt;</li><li><b>Proof:</b></li><li>We need to prove that A(R)|Ψ&gt; = |Ψ&gt; and B(R)|Ψ&gt; = |Ψ&gt;</li><li>B(R’) Π<sub>R </sub>(1 + A(R))|0&gt; =  Π<sub>R </sub>(1 + A(R))B(R’)|0&gt; = Π<sub>R </sub>(1+ A(R))|0&gt; = |Ψ&gt;</li><li>A(R) Π<sub>R’</sub>(1+A(R’))|0&gt;<ol><li>Π<sub>R</sub>(1+A(R)) = (1+A(R<sub>1</sub>))(1+A(R<sub>2</sub>))(1+A(R<sub>3</sub>))..</li><li>This gives the set of all possible loops</li><li>So multiplying an extra A(R) on the left doesn’t change anything</li><li>A(R<sub>1</sub>) Π<sub>R’</sub>(1+A(R’)) = A(R<sub>1</sub>) (1+A(R<sub>1</sub>)) Π<sub>R’!=R1</sub>(1+A(R’)) = (1 + A(R1))Π<sub>R’!=R1</sub>(1+A(R’)) = Π<sub>R</sub>(1+A(R’))</li></ol></li></ol></li></ol></li></ol></li></ol>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "45",
+   "num": 45,
+   "title": "Stabilizer Codes Review",
+   "video": "https://youtu.be/6oquVnD9iiA",
+   "yt": "6oquVnD9iiA",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1k5_4w0k_HOZX7g8T8QqBY70VZp16Oulr/view?usp=drivesdk",
+     "id": "1k5_4w0k_HOZX7g8T8QqBY70VZp16Oulr",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "46",
+   "num": 46,
+   "title": "Toric Code Pt. 2",
+   "video": "https://youtu.be/N87CZInPtZg",
+   "yt": "N87CZInPtZg",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "47",
+   "num": 47,
+   "title": "Toric Code Pt. 3",
+   "video": "https://youtu.be/HJKpukpydDE",
+   "yt": "HJKpukpydDE",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "48",
+   "num": 48,
+   "title": "Surface Code",
+   "video": "https://youtu.be/ePB1FI6Ry4s",
+   "yt": "ePB1FI6Ry4s",
+   "note": null,
+   "notes": [],
+   "homework": "<h4>Resources</h4><ul><li>Paper:</li><li><a href=\"https://www.youtube.com/watch?v=si5a9RJP01A\" target=\"_blank\" rel=\"noopener\">Progress Towards Quantum Error Correction with the Surface Code |  Qiskit Seminar Series</a></li><li><a href=\"https://www.youtube.com/watch?v=BgmqtLQz27A\" target=\"_blank\" rel=\"noopener\">Andrew Houck - Surface Codes and Quantum Error Correction</a></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "49",
+   "num": 49,
+   "title": "Interactive Proofs & Non local games",
+   "video": "https://youtu.be/Z1FPfFkzyLo",
+   "yt": "Z1FPfFkzyLo",
+   "note": null,
+   "notes": [],
+   "homework": "<h4>Resources</h4><ul><li>Graph non-isomorphism using IP<ul><li><a href=\"https://homes.cs.washington.edu/~anuprao/pubs/CSE531Winter12/lecture8.pdf\" target=\"_blank\" rel=\"noopener\">https://homes.cs.washington.edu/~anuprao/pubs/CSE531Winter12/lecture8.pdf</a></li><li><a href=\"https://www.youtube.com/watch?v=-WCvJurvmlM\" target=\"_blank\" rel=\"noopener\">2019-01-22 - IP#1 - Graph Non-Isomorphism</a></li></ul></li></ul>",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "complexity"
+  },
+  {
+   "id": "50",
+   "num": 50,
+   "title": "Continuing surface code",
+   "video": "https://youtu.be/FwLzRc-8S0A",
+   "yt": "FwLzRc-8S0A",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "qec"
+  },
+  {
+   "id": "51",
+   "num": 51,
+   "title": "Fermionic approach to variational quantum simulation of Kitaev spin models",
+   "video": "https://youtu.be/KvUcWx2HoqI",
+   "yt": "KvUcWx2HoqI",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": null,
+   "presenter": null,
+   "track": "manybody"
+  },
+  {
+   "id": "52",
+   "num": 52,
+   "title": "Quantum Dot",
+   "video": "https://youtu.be/l0iFX5-QOxM",
+   "yt": "l0iFX5-QOxM",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-01-29",
+   "presenter": "Johnson Qiao",
+   "track": "hardware"
+  },
+  {
+   "id": "53",
+   "num": 53,
+   "title": "Quantum Autoencoder",
+   "video": "https://youtu.be/j3vXBWczS8c",
+   "yt": "j3vXBWczS8c",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-02-05",
+   "presenter": "Dariel",
+   "track": "ml"
+  },
+  {
+   "id": "54",
+   "num": 54,
+   "title": "Interactive Proofs & CHSH game",
+   "video": "https://youtu.be/plktZYFYsGE",
+   "yt": "plktZYFYsGE",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1Zl5490NhKBD9Mt_MPhjADtyfKnpOSF0a/view?usp=drivesdk",
+     "id": "1Zl5490NhKBD9Mt_MPhjADtyfKnpOSF0a",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><ul><li>Henry Yuen Class Notes:<ul><li>http://www.henryyuen.net/classes/fall2020/</li></ul></li></ul><h4>Final Homework!!!!!</h4><p>Your Final HW will be to understand a new quantum computing algorithm or topic and explain it to us in a lecture.</p><h4>FAQs</h4><ul><li>How do I find a quantum algorithm?<ul><li>There is a big list of quantum algorithms here: <a href=\"https://quantumalgorithmzoo.org/\" target=\"_blank\" rel=\"noopener\">https://quantumalgorithmzoo.org/</a></li><li>You can find more here: <a href=\"https://qosf.org/project_list/\" target=\"_blank\" rel=\"noopener\">List of Open Quantum Projects (qosf.org)</a></li><li>Even more here: <a href=\"https://arxiv.org/pdf/1804.03719.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Algorithm Implementations for Beginners (arxiv.org)</a></li><li>If this list seems overwhelming, ask us and we can suggest you a handful</li></ul></li><li>What are some other topics:<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/standard/algorithms#draper-adder\" target=\"_blank\" rel=\"noopener\">Draper Adder</a><ul><li><a href=\"https://qiskit.org/documentation/stubs/qiskit.circuit.library.DraperQFTAdder.html\" target=\"_blank\" rel=\"noopener\">DraperQFTAdder — Qiskit 0.34.2 documentation</a></li><li><a href=\"https://arxiv.org/pdf/quant-ph/0008033.pdf\" target=\"_blank\" rel=\"noopener\">original paper</a></li></ul></li><li>QRAM:<ul><li><a href=\"https://www.youtube.com/watch?v=eBN5MXMirYs\" target=\"_blank\" rel=\"noopener\">Primer</a> (there are many different implementations that are more involved than this)</li><li><a href=\"https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code\" target=\"_blank\" rel=\"noopener\">Implementing QRAM in Qiskit with code — Quantum Computing UK</a></li></ul></li><li><a href=\"https://www.math.uwaterloo.ca/~amchilds/teaching/w08/co781-project.html\" target=\"_blank\" rel=\"noopener\">Quantum algorithms (CO 781): Final project (uwaterloo.ca)</a></li><li><a href=\"https://cs.uwaterloo.ca/~cleve/courses/F07CS667/ProjectsList06V2.pdf\" target=\"_blank\" rel=\"noopener\">CS667/CO681/PH767 Potential Project Topics (uwaterloo.ca)</a></li><li>QRAM: <a href=\"https://arxiv.org/pdf/0708.1879.pdf\" target=\"_blank\" rel=\"noopener\">0708.1879.pdf (arxiv.org)</a></li><li>How do D-Wave computers work (look into QUBO problems)?<ul><li>You can try reading this <a href=\"https://drive.google.com/file/d/1YbAPiMXaZThJcgOVZworkPgzEuSyZcoj/view?usp=sharing\" target=\"_blank\" rel=\"noopener\">book</a></li></ul></li><li>QAOA<ul><li>TSP</li><li>Max-Cut problem: uses  MinimumEigenOptimizer in combination of QAOA  as minimum eigensolver routine.</li><li>Variational Quantum Algorithms</li></ul></li><li>Quantum Machine Learning (look up NISQ)<ul><li>Qiskit ML<ul><li><a href=\"https://github.com/Qiskit/qiskit-machine-learning/\" target=\"_blank\" rel=\"noopener\">https://github.com/Qiskit/qiskit-machine-learning/</a></li><li><a href=\"https://qiskit.org/documentation/machine-learning/tutorials/index.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/documentation/machine-learning/tutorials/index.html</a></li></ul></li></ul></li><li>Qiskit Finance: <a href=\"https://qiskit.org/documentation/finance/tutorials/index.html\" target=\"_blank\" rel=\"noopener\">Finance Tutorials — Qiskit Finance 0.3.1 documentation</a></li><li>Quantum Error Correction (Steane Code, Bacon-Shor Codes, Hamming Codes, etc.)</li><li>Topological Quantum Computing</li><li>Quantum Cryptography<ul><li><a href=\"https://eprint.iacr.org/2021/620.pdf\" target=\"_blank\" rel=\"noopener\">Algebraic attacks on block ciphers using quantum annealing</a> (turning the problem into a QUBO)</li></ul></li><li>Threads asking about project ideas<ul><li><a href=\"https://quantumcomputing.stackexchange.com/questions/8481/ideas-for-school-level-project-on-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/8481/ideas-for-school-level-project-on-quantum-computing</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/4420/algorithm-based-game-project-to-introduce-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/4420/algorithm-based-game-project-to-introduce-quantum-computing</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/8290/newbie-project-calculate-a-mersenne-prime-with-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/8290/newbie-project-calculate-a-mersenne-prime-with-quantum-computing</a></li></ul></li><li>Approximate cloning</li></ul></li><li>There are too many topics! How do I pick one?<ul><li>Try to pick something that’s relatively easy (but not too easy). So at least you can understand the problem within a few hours of reading the problem statement.</li><li>Try to pick something that’s exciting so you can push through understanding both the problem and the algorithm until the end.<ul><li>For example: If you like cryptography you might want to read about Shor’s solution for the discrete logarithm problem that allows us to break Diffie-Helman exchange</li></ul></li><li>You can try to optimize for a problem in a group of problems that spans too many more algorithms, this way your acquired knowledge can go a long way.<ul><li>For example the Hidden subgroup problem spans a lot of problems (Simon’s, Grover’s, Shor’s are all instance of the Abelian hidden subgroup problem)</li></ul></li></ul></li><li>What resources can help me?<ul><li>Wikipedia is always useful resource</li><li>Qiskit may not have the exact algorithm you are looking for but it has nice explanations for concepts that will allow you to understand the problem/solution.</li><li><a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Computing and Quantum Information book</a></li><li>Lectures on youtube</li></ul></li><li>Can we ask for help?<ul><li>Yes come to office hours and we will try to help</li></ul></li></ul>",
+   "homework_shared_with": [
+    55
+   ],
+   "assigned": null,
+   "due": null,
+   "date": "2023-02-12",
+   "presenter": "Preksha",
+   "track": "complexity"
+  },
+  {
+   "id": "55",
+   "num": 55,
+   "title": "Grilo’s verification protocol",
+   "video": "https://youtu.be/N6KV1e2BA0I",
+   "yt": "N6KV1e2BA0I",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1qLXJZDi4joKfbHU3JNftcBMqxLiOq5Rc/view?usp=drivesdk",
+     "id": "1qLXJZDi4joKfbHU3JNftcBMqxLiOq5Rc",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "<h4>Resources</h4><ul><li>Henry Yuen Class Notes:<ul><li>http://www.henryyuen.net/classes/fall2020/</li></ul></li></ul><h4>Final Homework!!!!!</h4><p>Your Final HW will be to understand a new quantum computing algorithm or topic and explain it to us in a lecture.</p><h4>FAQs</h4><ul><li>How do I find a quantum algorithm?<ul><li>There is a big list of quantum algorithms here: <a href=\"https://quantumalgorithmzoo.org/\" target=\"_blank\" rel=\"noopener\">https://quantumalgorithmzoo.org/</a></li><li>You can find more here: <a href=\"https://qosf.org/project_list/\" target=\"_blank\" rel=\"noopener\">List of Open Quantum Projects (qosf.org)</a></li><li>Even more here: <a href=\"https://arxiv.org/pdf/1804.03719.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Algorithm Implementations for Beginners (arxiv.org)</a></li><li>If this list seems overwhelming, ask us and we can suggest you a handful</li></ul></li><li>What are some other topics:<ul><li><a href=\"https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/standard/algorithms#draper-adder\" target=\"_blank\" rel=\"noopener\">Draper Adder</a><ul><li><a href=\"https://qiskit.org/documentation/stubs/qiskit.circuit.library.DraperQFTAdder.html\" target=\"_blank\" rel=\"noopener\">DraperQFTAdder — Qiskit 0.34.2 documentation</a></li><li><a href=\"https://arxiv.org/pdf/quant-ph/0008033.pdf\" target=\"_blank\" rel=\"noopener\">original paper</a></li></ul></li><li>QRAM:<ul><li><a href=\"https://www.youtube.com/watch?v=eBN5MXMirYs\" target=\"_blank\" rel=\"noopener\">Primer</a> (there are many different implementations that are more involved than this)</li><li><a href=\"https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code\" target=\"_blank\" rel=\"noopener\">Implementing QRAM in Qiskit with code — Quantum Computing UK</a></li></ul></li><li><a href=\"https://www.math.uwaterloo.ca/~amchilds/teaching/w08/co781-project.html\" target=\"_blank\" rel=\"noopener\">Quantum algorithms (CO 781): Final project (uwaterloo.ca)</a></li><li><a href=\"https://cs.uwaterloo.ca/~cleve/courses/F07CS667/ProjectsList06V2.pdf\" target=\"_blank\" rel=\"noopener\">CS667/CO681/PH767 Potential Project Topics (uwaterloo.ca)</a></li><li>QRAM: <a href=\"https://arxiv.org/pdf/0708.1879.pdf\" target=\"_blank\" rel=\"noopener\">0708.1879.pdf (arxiv.org)</a></li><li>How do D-Wave computers work (look into QUBO problems)?<ul><li>You can try reading this <a href=\"https://drive.google.com/file/d/1YbAPiMXaZThJcgOVZworkPgzEuSyZcoj/view?usp=sharing\" target=\"_blank\" rel=\"noopener\">book</a></li></ul></li><li>QAOA<ul><li>TSP</li><li>Max-Cut problem: uses  MinimumEigenOptimizer in combination of QAOA  as minimum eigensolver routine.</li><li>Variational Quantum Algorithms</li></ul></li><li>Quantum Machine Learning (look up NISQ)<ul><li>Qiskit ML<ul><li><a href=\"https://github.com/Qiskit/qiskit-machine-learning/\" target=\"_blank\" rel=\"noopener\">https://github.com/Qiskit/qiskit-machine-learning/</a></li><li><a href=\"https://qiskit.org/documentation/machine-learning/tutorials/index.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/documentation/machine-learning/tutorials/index.html</a></li></ul></li></ul></li><li>Qiskit Finance: <a href=\"https://qiskit.org/documentation/finance/tutorials/index.html\" target=\"_blank\" rel=\"noopener\">Finance Tutorials — Qiskit Finance 0.3.1 documentation</a></li><li>Quantum Error Correction (Steane Code, Bacon-Shor Codes, Hamming Codes, etc.)</li><li>Topological Quantum Computing</li><li>Quantum Cryptography<ul><li><a href=\"https://eprint.iacr.org/2021/620.pdf\" target=\"_blank\" rel=\"noopener\">Algebraic attacks on block ciphers using quantum annealing</a> (turning the problem into a QUBO)</li></ul></li><li>Threads asking about project ideas<ul><li><a href=\"https://quantumcomputing.stackexchange.com/questions/8481/ideas-for-school-level-project-on-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/8481/ideas-for-school-level-project-on-quantum-computing</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/4420/algorithm-based-game-project-to-introduce-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/4420/algorithm-based-game-project-to-introduce-quantum-computing</a></li><li><a href=\"https://quantumcomputing.stackexchange.com/questions/8290/newbie-project-calculate-a-mersenne-prime-with-quantum-computing\" target=\"_blank\" rel=\"noopener\">https://quantumcomputing.stackexchange.com/questions/8290/newbie-project-calculate-a-mersenne-prime-with-quantum-computing</a></li></ul></li><li>Approximate cloning</li></ul></li><li>There are too many topics! How do I pick one?<ul><li>Try to pick something that’s relatively easy (but not too easy). So at least you can understand the problem within a few hours of reading the problem statement.</li><li>Try to pick something that’s exciting so you can push through understanding both the problem and the algorithm until the end.<ul><li>For example: If you like cryptography you might want to read about Shor’s solution for the discrete logarithm problem that allows us to break Diffie-Helman exchange</li></ul></li><li>You can try to optimize for a problem in a group of problems that spans too many more algorithms, this way your acquired knowledge can go a long way.<ul><li>For example the Hidden subgroup problem spans a lot of problems (Simon’s, Grover’s, Shor’s are all instance of the Abelian hidden subgroup problem)</li></ul></li></ul></li><li>What resources can help me?<ul><li>Wikipedia is always useful resource</li><li>Qiskit may not have the exact algorithm you are looking for but it has nice explanations for concepts that will allow you to understand the problem/solution.</li><li><a href=\"http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Computing and Quantum Information book</a></li><li>Lectures on youtube</li></ul></li><li>Can we ask for help?<ul><li>Yes come to office hours and we will try to help</li></ul></li></ul>",
+   "homework_shared_with": [
+    54
+   ],
+   "assigned": null,
+   "due": null,
+   "date": "2023-02-19",
+   "presenter": "Preksha",
+   "track": "complexity"
+  },
+  {
+   "id": "56",
+   "num": 56,
+   "title": "Compression Theorem MIP*=RE",
+   "video": "https://youtu.be/gbzr4z-J01g",
+   "yt": "gbzr4z-J01g",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-02-26",
+   "presenter": "Preksha",
+   "track": "complexity"
+  },
+  {
+   "id": "57",
+   "num": 57,
+   "title": "Online Learning via Optimally Compressed Non-parametric Function Learning Algorithms",
+   "video": "https://youtu.be/GtxCwPqKNTk",
+   "yt": "GtxCwPqKNTk",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-03-05",
+   "presenter": "Rishi",
+   "track": "ml"
+  },
+  {
+   "id": "58",
+   "num": 58,
+   "title": "Measuring all compatible operators in one series of single-qubit measurements using unitary transformations",
+   "video": "https://youtu.be/8jwcfRII-Hc",
+   "yt": "8jwcfRII-Hc",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-03-19",
+   "presenter": "Sahmoud",
+   "track": "measurement"
+  },
+  {
+   "id": "59",
+   "num": 59,
+   "title": "Barren Plateaus",
+   "video": "https://youtu.be/5TTefykB9cY",
+   "yt": "5TTefykB9cY",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1k9N5HwFzwdGwYTyYLTlJoHGqrAP-DWMT/view?usp=drivesdk",
+     "id": "1k9N5HwFzwdGwYTyYLTlJoHGqrAP-DWMT",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-03-26",
+   "presenter": "Dariel",
+   "track": "ml"
+  },
+  {
+   "id": "60",
+   "num": 60,
+   "title": "HSP for Finite Abelian Groups",
+   "video": "https://youtu.be/GtvusKxri3M",
+   "yt": "GtvusKxri3M",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/12Mo9rnyAD6QyWHbHVVusniSoetF8gymh/view?usp=drivesdk",
+     "id": "12Mo9rnyAD6QyWHbHVVusniSoetF8gymh",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-04-16",
+   "presenter": "Sahmoud",
+   "track": "crypto"
+  },
+  {
+   "id": "61",
+   "num": 61,
+   "title": "Lattice Based Problems",
+   "video": "https://youtu.be/2EJ41CPmsDI",
+   "yt": "2EJ41CPmsDI",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1PEc_aF4UX6zHXoC-WF0GRqOXTY-z1_4E/view?usp=drivesdk",
+     "id": "1PEc_aF4UX6zHXoC-WF0GRqOXTY-z1_4E",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-04-23",
+   "presenter": "Sahmoud",
+   "track": "crypto"
+  },
+  {
+   "id": "62",
+   "num": 62,
+   "title": "SVP reduction to HSP and Kuperberg's",
+   "video": "https://youtu.be/kj86QI5cR14",
+   "yt": "kj86QI5cR14",
+   "note": null,
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1OoYmhzzDAaKxbGsIlFPHzoRZlFpb7d9G/view?usp=drivesdk",
+     "id": "1OoYmhzzDAaKxbGsIlFPHzoRZlFpb7d9G",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-04-30",
+   "presenter": "Sahmoud",
+   "track": "crypto"
+  },
+  {
+   "id": "63",
+   "num": 63,
+   "title": "1D spin chains",
+   "video": "https://youtu.be/M-wPG7VMNMI",
+   "yt": "M-wPG7VMNMI",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-05-07",
+   "presenter": "Ammar",
+   "track": "manybody"
+  },
+  {
+   "id": "64",
+   "num": 64,
+   "title": "KS Systems and SAT Solvers",
+   "video": "https://youtu.be/tsHedDVaxL0",
+   "yt": "tsHedDVaxL0",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-05-14",
+   "presenter": "Curtis Bright",
+   "track": "manybody"
+  },
+  {
+   "id": "65",
+   "num": 65,
+   "title": "1D spin 1 chains Pt. 2",
+   "video": "https://youtu.be/-KxEOKhiM30",
+   "yt": "-KxEOKhiM30",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-05-21",
+   "presenter": "Ammar",
+   "track": "manybody"
+  },
+  {
+   "id": "66",
+   "num": 66,
+   "title": "1D spin 1 chains Pt. 3 AKLT Model",
+   "video": "https://youtu.be/rgrDJLVMFvQ",
+   "yt": "rgrDJLVMFvQ",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-05-28",
+   "presenter": "Ammar",
+   "track": "manybody"
+  },
+  {
+   "id": "67",
+   "num": 67,
+   "title": "Matrix Product States",
+   "video": "https://youtu.be/nJW8VxVdPgA",
+   "yt": "nJW8VxVdPgA",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-06-04",
+   "presenter": "Dariel",
+   "track": "manybody"
+  },
+  {
+   "id": "68",
+   "num": 68,
+   "title": "Matrix Product States Pt. 2",
+   "video": "https://youtu.be/XOlB64YAtGk",
+   "yt": "XOlB64YAtGk",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-06-18",
+   "presenter": "Dariel",
+   "track": "manybody"
+  },
+  {
+   "id": "69",
+   "num": 69,
+   "title": "Breaking Ergodicity",
+   "video": "https://youtu.be/92iS7PtqWoA",
+   "yt": "92iS7PtqWoA",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-07-23",
+   "presenter": "Ammar",
+   "track": "manybody"
+  },
+  {
+   "id": "70",
+   "num": 70,
+   "title": "Learning About Quantum States",
+   "video": "https://youtu.be/p_4MtStlS8s",
+   "yt": "p_4MtStlS8s",
+   "note": null,
+   "notes": [],
+   "homework": "",
+   "homework_shared_with": [],
+   "assigned": null,
+   "due": null,
+   "date": "2023-07-30",
+   "presenter": "Preksha",
+   "track": "ml"
+  },
+  {
+   "id": "H1",
+   "num": null,
+   "title": "Hardware prep 1/4",
+   "video": "https://youtu.be/wA2uLKs1uhE",
+   "yt": "wA2uLKs1uhE",
+   "notes": [
+    {
+     "label": "Doc notes",
+     "url": "https://docs.google.com/document/d/1jl0-XB2V2uzcqSjc9JUt1uFFIs_gQNWTNyGzigZmczc/edit?usp=drivesdk",
+     "id": "1jl0-XB2V2uzcqSjc9JUt1uFFIs_gQNWTNyGzigZmczc",
+     "kind": "Doc"
+    },
+    {
+     "label": "Series outline",
+     "url": "https://docs.google.com/document/d/1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM/edit?usp=drivesdk",
+     "id": "1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "track": "hardware",
+   "date": null,
+   "presenter": null,
+   "assigned": null,
+   "due": null,
+   "note": null
+  },
+  {
+   "id": "H2",
+   "num": null,
+   "title": "Hardware prep 2/4",
+   "video": "https://youtu.be/SxaSF77ksUc",
+   "yt": "SxaSF77ksUc",
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1C-io0DutasNdLanr5GSnMTO5tSjaiRHU/view?usp=drivesdk",
+     "id": "1C-io0DutasNdLanr5GSnMTO5tSjaiRHU",
+     "kind": "PDF"
+    },
+    {
+     "label": "Series outline",
+     "url": "https://docs.google.com/document/d/1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM/edit?usp=drivesdk",
+     "id": "1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "track": "hardware",
+   "date": null,
+   "presenter": null,
+   "assigned": null,
+   "due": null,
+   "note": null
+  },
+  {
+   "id": "H3",
+   "num": null,
+   "title": "Hardware prep 3/4",
+   "video": "https://youtu.be/pTFTT0181Vw",
+   "yt": "pTFTT0181Vw",
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1Tc_C4LEm4NhgxFlkcgzU74B4NtLCpQKk/view?usp=drivesdk",
+     "id": "1Tc_C4LEm4NhgxFlkcgzU74B4NtLCpQKk",
+     "kind": "PDF"
+    },
+    {
+     "label": "Series outline",
+     "url": "https://docs.google.com/document/d/1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM/edit?usp=drivesdk",
+     "id": "1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "track": "hardware",
+   "date": null,
+   "presenter": null,
+   "assigned": null,
+   "due": null,
+   "note": null
+  },
+  {
+   "id": "H4",
+   "num": null,
+   "title": "Hardware prep 4/4",
+   "video": "https://youtu.be/UQY-2bqy73k",
+   "yt": "UQY-2bqy73k",
+   "notes": [
+    {
+     "label": "PDF notes",
+     "url": "https://drive.google.com/file/d/1s0F9rjGJR1V7NrUniBqLWYeE1VzyGKbg/view?usp=drivesdk",
+     "id": "1s0F9rjGJR1V7NrUniBqLWYeE1VzyGKbg",
+     "kind": "PDF"
+    },
+    {
+     "label": "Series outline",
+     "url": "https://docs.google.com/document/d/1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM/edit?usp=drivesdk",
+     "id": "1R6e5t6VCrNoK4BncxG7WQ4rl1v7LqqtXY7EkX7vB4MM",
+     "kind": "Doc"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "track": "hardware",
+   "date": null,
+   "presenter": null,
+   "assigned": null,
+   "due": null,
+   "note": null
+  },
+  {
+   "id": "H5",
+   "num": null,
+   "title": "Guest lecture: Daniel Sank on quantum computing hardware",
+   "video": "https://youtu.be/GftxgmdxZDw",
+   "yt": "GftxgmdxZDw",
+   "notes": [
+    {
+     "label": "Audience Q&A (Dory)",
+     "url": "https://www.dory.app/c/414d1f76/abbaba99_daniel-sank-q-a/questions",
+     "kind": "Link"
+    },
+    {
+     "label": "Daniel Sank's PhD thesis",
+     "url": "https://web.physics.ucsb.edu/~martinisgroup/theses/Sank2014.pdf",
+     "kind": "PDF"
+    }
+   ],
+   "homework": "",
+   "homework_shared_with": [],
+   "track": "hardware",
+   "date": null,
+   "presenter": "Daniel Sank",
+   "assigned": null,
+   "due": null,
+   "note": null
+  }
+ ],
+ "talks": [
+  {
+   "date": "Aug 13, 2023",
+   "presenter": "Ming-Han Chou",
+   "topic": "Superconducting Qubit and Dispersive Measurement",
+   "links": []
+  },
+  {
+   "date": "Jul 30, 2023",
+   "presenter": "Preksha",
+   "topic": "Learning About Quantum States",
+   "links": [
+    {
+     "text": "Learning About Quantum States 1:  Intro to Quantum Computation",
+     "url": "https://www.youtube.com/watch?v=gelxMbpb9YY&list=PLm3J0oaFux3biM7DgkmjSWAikhgQm6xbv"
+    }
+   ]
+  },
+  {
+   "date": "Jul 23, 2023",
+   "presenter": "Ammar",
+   "topic": "Ergodicity breaking provably robust to arbitrary perturbations",
+   "links": [
+    {
+     "text": "Ergodicity breaking provably robust to arbitrary perturbations",
+     "url": "https://arxiv.org/pdf/2209.03966.pdf"
+    },
+    {
+     "text": "Topologically stable ergodicity breaking from emergent higher-form symmetries in generalized quantum loop models",
+     "url": "https://arxiv.org/pdf/2304.04792.pdf"
+    }
+   ]
+  },
+  {
+   "date": "June 18, 2023",
+   "presenter": "Dariel",
+   "topic": "Matrix Product States Pt. 2",
+   "links": []
+  },
+  {
+   "date": "June 4, 2023",
+   "presenter": "Dariel",
+   "topic": "Matrix Product States",
+   "links": []
+  },
+  {
+   "date": "May 28, 2023",
+   "presenter": "Ammar",
+   "topic": "Some more 1D spin-1 chains",
+   "links": []
+  },
+  {
+   "date": "May 21, 2023",
+   "presenter": "Ammar",
+   "topic": "1D spin chains continued..",
+   "links": []
+  },
+  {
+   "date": "May 14, 2023",
+   "presenter": "Curtis Bright",
+   "topic": "A SAT and orderly generation approach in the quest for the minimum Kochen–Specker system [a]",
+   "links": []
+  },
+  {
+   "date": "May 7, 2023",
+   "presenter": "Ammar",
+   "topic": "1D spin chains",
+   "links": []
+  },
+  {
+   "date": "Apr 30, 2023",
+   "presenter": "Sahmoud",
+   "topic": "Reduction of SVP to HSP over D N and Kuperberg’s algorithm",
+   "links": []
+  },
+  {
+   "date": "Apr 23, 2023",
+   "presenter": "Sahmoud",
+   "topic": "Lattice based problem f(n)-unique SVP reduction to HSP on dihedral group & Kuperberg’s algorithm",
+   "links": [
+    {
+     "text": "From the Shortest Vector Problem to the Dihedral Hidden Subgroup Problem",
+     "url": "https://cbright.myweb.cs.uwindsor.ca/reports/cs667proj.pdf"
+    },
+    {
+     "text": "A subexponential-time quantum algorithm for the dihedral hidden subgroup problem",
+     "url": "https://arxiv.org/abs/quant-ph/0302112"
+    }
+   ]
+  },
+  {
+   "date": "Apr 16, 2023",
+   "presenter": "Sahmoud",
+   "topic": "HSP for finite abelian groups",
+   "links": [
+    {
+     "text": "The Hidden Subgroup Problem - Review and Open Problems",
+     "url": "https://arxiv.org/abs/quant-ph/0411037"
+    }
+   ]
+  },
+  {
+   "date": "Mar 26, 2023",
+   "presenter": "Dariel",
+   "topic": "Barren Plateaus",
+   "links": [
+    {
+     "text": "https://arxiv.org/pdf/1803.11173.pdf",
+     "url": "https://arxiv.org/pdf/1803.11173.pdf"
+    },
+    {
+     "text": "An elementary method to evaluate integrals over the unitary group - YouTube",
+     "url": "https://www.youtube.com/watch?v=GouODf6g2Ss"
+    },
+    {
+     "text": "[2003.14103] No Free Lunch for Quantum Machine Learning (arxiv.org)",
+     "url": "https://arxiv.org/abs/2003.14103"
+    }
+   ]
+  },
+  {
+   "date": "Mar 19, 2023",
+   "presenter": "Sahmoud",
+   "topic": "Measuring all compatible operators in one series of single-qubit measurements using unitary transformations",
+   "links": [
+    {
+     "text": "Measuring all compatible operators in one series of single-qubit measurements using unitary transformations",
+     "url": "https://arxiv.org/pdf/1907.09386.pdf"
+    }
+   ]
+  },
+  {
+   "date": "Mar 5, 2023",
+   "presenter": "Rishi",
+   "topic": "Theoretical (Classical) ML: Online Learning via Optimally Compressed Non-parametric Function Learning Algorithms",
+   "links": []
+  },
+  {
+   "date": "Feb 26, 2023",
+   "presenter": "Preksha",
+   "topic": "Compression Theorem",
+   "links": []
+  },
+  {
+   "date": "Feb 19, 2023",
+   "presenter": "Preksha",
+   "topic": "Grilo’s verification protocol",
+   "links": []
+  },
+  {
+   "date": "Feb 12, 2023",
+   "presenter": "Preksha",
+   "topic": "Complexity Theory",
+   "links": []
+  },
+  {
+   "date": "Feb 5, 2023",
+   "presenter": "Dariel",
+   "topic": "Quantum autoencoder ( https://iopscience.iop.org/article/10.1088/2058-9565/aa8072 )",
+   "links": [
+    {
+     "text": "https://iopscience.iop.org/article/10.1088/2058-9565/aa8072",
+     "url": "https://iopscience.iop.org/article/10.1088/2058-9565/aa8072"
+    }
+   ]
+  },
+  {
+   "date": "Jan 29, 2023",
+   "presenter": "Johnson Qiao",
+   "topic": "Johnson Qiao will talk about his phd thesis for quantum dots",
+   "links": []
+  },
+  {
+   "date": "Jan 22, 2023",
+   "presenter": "Group Reading",
+   "topic": "Read together Exponentially tighter bounds on limitations of quantum error mitigation",
+   "links": [
+    {
+     "text": "Exponentially tighter bounds on limitations of quantum error mitigation",
+     "url": "https://arxiv.org/pdf/2210.11505.pdf"
+    }
+   ]
+  },
+  {
+   "date": "Jan 15, 2023",
+   "presenter": "Group Reading",
+   "topic": "Lower bounds of error mitigation",
+   "links": []
+  },
+  {
+   "date": "Jan 8, 2023",
+   "presenter": "Preksha",
+   "topic": "ZNE paper",
+   "links": []
+  },
+  {
+   "date": "Dec 18, 2022",
+   "presenter": "Dariel",
+   "topic": "Projected ensembles as a generator of k-design quantum states or Classical shadows (cont.) with local random measurements",
+   "links": []
+  }
+ ],
+ "potential_topics": "<ul><li>Quantum Machine Learning<ul><li>Barren Plateaus</li></ul></li><li>Quantum Cryptography<ul><li>Classical Cryptography</li></ul></li><li>Quantum Complexity Theory<ul><li>http://www.henryyuen.net/classes/fall2020/</li><li>Classical Complexity Theory</li><li>Non-local games</li><li>Rigidity of non-local games</li><li>Feynman-Kitaev construction</li><li>Grilo’s verification protocol</li></ul></li><li>Different Error Mitigation Techniques<ul><li>Unifying benchmarking of error mitigation techniques</li></ul></li><li>Tensor Networks<ul><li>“Quantum Tensor Networks in a Nutshell” <a href=\"https://arxiv.org/pdf/1708.00006.pdf\" target=\"_blank\" rel=\"noopener\">https://arxiv.org/pdf/1708.00006.pdf</a></li></ul></li><li>Quantum Error Corrections<ul><li>Subsystem codes</li></ul></li><li>Quantum expectation-value estimation by computational basis sampling <a href=\"https://arxiv.org/pdf/2112.07416.pdf\" target=\"_blank\" rel=\"noopener\">https://arxiv.org/pdf/2112.07416.pdf</a></li><li>PCP theorem<ul><li><a href=\"https://courses.cs.washington.edu/courses/cse533/05au/pcp-theorem.pdf\" target=\"_blank\" rel=\"noopener\">https://courses.cs.washington.edu/courses/cse533/05au/pcp-theorem.pdf</a></li></ul></li><li>Quantum PCP Conjecture: <a href=\"https://arxiv.org/pdf/1309.7495.pdf\" target=\"_blank\" rel=\"noopener\">1309.7495.pdf (arxiv.org)</a></li></ul>",
+ "syllabus": "<ol><li>Intro to qubits</li><li>Vectors and Matrices</li><li>Superdense coding</li><li>Quantum Teleportation</li><li>Deutsch (Find whether a function is constant or balanced in O(1) vs O(2^(n-1)) classically)</li><li>Simon's Algorithm (how to find xor pairs in O(n), where classically it's O(2^n/2))</li><li><b>EPR Pair and Bell’s Inequality (Bell showing us why Einstein is wrong)</b></li><li><b>Grover's (Search in O(sqrt(N)))</b><ol><li>[5,1,4,9….] N</li><li>Search: O(N)</li><li>Quantum Computing: O(sqrt(N))</li></ol></li><li>Measurement</li><li>No cloning theorem (Why copying qubits is impossible!)<ol><li>Quantum circuits and universal quantum gates</li></ol></li><li>Grover’s example oracles (qiskit code)</li><li>RSA and Shor's Algorithm (Breaking RSA in logN polynomial time!)<ol><li>Period Finding</li><li>QFT</li><li>Factoring using period finding</li></ol></li><li>Hidden Subgroup Problem<ol><li>Phase Estimation/Continued Fractions</li><li>Order Finding</li><li>HSP problem definition + quantum algorithm</li></ol></li><li>How do quantum computers work physically?<ol><li>PreReqs:<ol><li>LC Circuits + DRAM</li><li>Hamiltonians (will be useful for us later when we discuss AQC/QAOA/QA)</li><li>Quantum Harmonic Oscillator</li><li><a href=\"https://web.physics.ucsb.edu/~martinisgroup/theses/Sank2014.pdf\" target=\"_blank\" rel=\"noopener\">Daniel’s thesis</a></li></ol></li></ol></li><li>Density Matrices, Spectral decomposition theorem</li><li>QAOA/AQC<ol><li>MaxCut</li><li>TSP</li><li><a href=\"https://eprint.iacr.org/2021/620.pdf\" target=\"_blank\" rel=\"noopener\">Algebraic attacks on block ciphers using quantum annealing</a> (turning the problem into a QUBO)</li></ol></li><li>HHL/QRam<ol><li>HHL implementation (Qiskit Aqua has it)</li></ol></li><li>Quantum Error Correction<ol><li>Toric Code</li><li>Shor’s Code</li></ol></li><li>Quantum Cryptography<ol><li>Quantum Key Distribution:<ol><li>BB84<ol><li><a href=\"https://qiskit.org/textbook/ch-algorithms/quantum-key-distribution.html\" target=\"_blank\" rel=\"noopener\">Implementation</a></li></ol></li></ol></li></ol></li><li><a href=\"https://qiskit.org/textbook/ch-algorithms/quantum-counting.html\" target=\"_blank\" rel=\"noopener\">Quantum Counting</a></li></ol>",
+ "syllabus_pending": "<ol><li><a href=\"https://www.scottaaronson.com/qisii.pdf\" target=\"_blank\" rel=\"noopener\">https://www.scottaaronson.com/qisii.pdf</a></li><li>Hadamard Test</li><li>Quantum Error Mitigation</li><li>Qram</li><li>Quantum Encoding<ol><li>basis, angle, amplitude, kernel or random encoding</li></ol></li><li>Quantum Error Correction:<ol><li>What’s the difference between coherent and incoherent noise? (see <a href=\"https://quantumcomputing.stackexchange.com/questions/21688/how-to-differientate-the-noise-functions-in-qiskit\" target=\"_blank\" rel=\"noopener\">Q</a>)</li></ol></li><li>Exercises<ol><li><a href=\"https://arxiv.org/pdf/1411.5949.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Arithmetic</a> -&gt; Mean, GCD..etc</li></ol></li><li><a href=\"https://www.youtube.com/watch?v=l-4Ly0VlWpo\" target=\"_blank\" rel=\"noopener\">Multiplication using QFT</a></li><li>Quantum Cryptography</li><li>Quantum One Time Pad (Quantum Key Distribution)<ol><li>BB84</li><li>EK91</li><li>B92</li></ol></li><li>QFT implementation</li><li>Quantum walk and applications</li><li>Quantum Machine Learning</li><li>Qiskit Labs: <a href=\"https://qiskit.org/textbook/ch-labs/Lab07_QuantumSimulationSearchAlgorithm.html\" target=\"_blank\" rel=\"noopener\">https://qiskit.org/textbook/ch-labs/Lab07_QuantumSimulationSearchAlgorithm.html</a><ol><li>Alternatively: <a href=\"https://arxiv.org/pdf/1804.03719.pdf\" target=\"_blank\" rel=\"noopener\">Quantum Algorithm Implementations for Beginners (arxiv.org)</a></li></ol></li><li>Quantum Tomography</li><li>Topological Order</li></ol>",
+ "resources": "<ul><li><a href=\"https://github.com/bubakazouba/spiny-quantum\" target=\"_blank\" rel=\"noopener\">Our </a>GitHub</li><li><a href=\"https://drive.google.com/drive/u/0/folders/1Xuvw0qdV-XFo-mdVvRe3wEpJ8JCwCY_J\" target=\"_blank\" rel=\"noopener\">Quantum Drive</a>: not necessarily for the lectures; this is just where we learn and document resources/notes before giving lectures on them. It also includes topics not covered in the lectures (yet)</li></ul><h4>Quantum Challenges</h4><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges\" target=\"_blank\" rel=\"noopener\">More unsorted problems with solutions</a></li></ul><h4>Notebook tutorials</h4><ul><li><a href=\"https://github.com/wmkirby1/CS-VQE/blob/9a0a7634dcb77f064957c772cf229b7103cce3a8/misc/notebooks/overview.ipynb\" target=\"_blank\" rel=\"noopener\">https://github.com/wmkirby1/CS-VQE/blob/9a0a7634dcb77f064957c772cf229b7103cce3a8/misc/notebooks/overview.ipynb</a></li></ul><h4>VQA/QAOA</h4><ul><li><a href=\"https://github.com/qiskit-community/ibm-quantum-challenge-fall-2021/blob/main/solutions-by-authors/challenge-1/challenge-1.ipynb\" target=\"_blank\" rel=\"noopener\">Portfolio Optimizing IBM 09/2021 Ex1</a> (Qiskit Finance Module, VQE, QAOA)<ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/solutions-by-authors/challenge-1/challenge-1.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/content/challenge-4/challenge-4.ipynb\" target=\"_blank\" rel=\"noopener\">Revenue Optimization IBM 09/2021 Ex4</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/solutions-by-authors/challenge-4/challenge-4.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/5-IBMQ-challenge-africa-2021/content/lab1/lab1.ipynb\" target=\"_blank\" rel=\"noopener\">Optimize Crop Yield IBM Fall Ex1 (QAOxA VQE)</a><ul><li><a href=\"https://github.com/qiskit-community/ibm-quantum-challenge-africa-2021/pulls\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/solutions-by-authors/challenge-2/challenge-2.ipynb\" target=\"_blank\" rel=\"noopener\">Calculate band gap of OLED molecules IBM 09/2021 Ex2</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/solutions-by-authors/challenge-2/challenge-2.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.01-jan/challenge-2021.01-jan.ipynb\" target=\"_blank\" rel=\"noopener\">Optimize chefs order queues to prepare it in fastest way</a><ul><li><a href=\"https://github.com/qosf/monthly-challenges/tree/main/challenge-2021.01-jan\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.02-feb/billyljm/qosf-monthly-challenge-04.ipynb\" target=\"_blank\" rel=\"noopener\">Given a state, prepare a circuit to create it using VQA</a> [Task 1]<ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.02-feb/billyljm/qosf-monthly-challenge-04.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/content/ex5/ex5.ipynb\" target=\"_blank\" rel=\"noopener\">VQE IBM 05/2021 Ex5</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/solutions%20by%20authors/ex5/ex5-solution.ipynb\" target=\"_blank\" rel=\"noopener\">QuantumChallenges/ex5-solution.ipynb at main · pratjz/QuantumChallenges (github.com)</a></li></ul></li><li><a href=\"https://quantumai.google/cirq/experiments/qaoa/binary_paintshop\" target=\"_blank\" rel=\"noopener\">Binary Paintshop Problem with Quantum Approximate Optimization Algorithm  |  Cirq  |  Google Quantum AI</a> (solution inside)</li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.08-aug/challenge-2021.08-aug.ipynb\" target=\"_blank\" rel=\"noopener\">Prepare W states using VQA</a><ul><li><a href=\"https://github.com/bubakazouba/spiny-quantum/blob/main/2021AugChallenge.py\" target=\"_blank\" rel=\"noopener\">Our solution using QAOA</a></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.08-aug/vic023/QOSF_Aug2021.ipynb\" target=\"_blank\" rel=\"noopener\">Submitted solution using VQA</a></li></ul></li></ul><h4>QML</h4><ul><li><a href=\"https://github.com/qiskit-community/ibm-quantum-challenge-fall-2021/blob/main/solutions-by-authors/challenge-3/challenge-3.ipynb\" target=\"_blank\" rel=\"noopener\">Image Classification</a> (QML)<ul><li>Watch QML playlist: <a href=\"https://www.youtube.com/watch?v=GVhCOTzAkCM&amp;list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI&amp;index=18\" target=\"_blank\" rel=\"noopener\">Lab 3 - Introduction to Quantum Kernels and Support Vector Machines</a></li></ul></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.09-sep/challenge-2021.09-sep.ipynb\" target=\"_blank\" rel=\"noopener\">QOSF 09/2021 Simple QML Challenge [Task 2]</a><ul><li>NO SOLUTION</li></ul></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.06-jun/challenge-2021.06-jun.ipynb\" target=\"_blank\" rel=\"noopener\">QML K-nearest neighbor algorithm</a><ul><li>NO SOLUTION</li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/content/challenge-3/challenge-3.ipynb\" target=\"_blank\" rel=\"noopener\">Classify images with quantum machine learning IBM 09/2021 Ex3</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/4-IBMQ-challenge-fall-2021/solutions-by-authors/challenge-3/challenge-3.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li></ul><h4>Grover’s Algorithm</h4><ul><li><a href=\"https://github.com/qiskit-community/IBMQuantumChallenge2020/blob/main/exercises/week-2/ex_2a_en.ipynb\" target=\"_blank\" rel=\"noopener\">IBM Quantum Challenge 2020 2a</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/1-IBMQ-challenge-2020/solutions/week-2/ex_2a_solutions_en.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/qiskit-community/IBMQuantumChallenge2020/blob/main/exercises/week-2/ex_2b_en.ipynb\" target=\"_blank\" rel=\"noopener\">IBM Quantum Challenge 2020 2b</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/1-IBMQ-challenge-2020/solutions/week-2/ex_2b_solutions_en.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/qiskit-community/IBMQuantumChallenge2020/blob/main/exercises/week-3/final_en.ipynb\" target=\"_blank\" rel=\"noopener\">IBM Quantum Challenge 2020 3</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/1-IBMQ-challenge-2020/solutions/week-3/ex_3_solution_en.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li></ul><h4>Circuit Composition</h4><ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2020.11-nov/challenge-2020.11-nov.ipynb\" target=\"_blank\" rel=\"noopener\">Given a diagonal unitary matrix, compose a circuit</a><ul><li><a href=\"https://github.com/qosf/monthly-challenges/tree/main/challenge-2020.11-nov\" target=\"_blank\" rel=\"noopener\">Solutions</a></li></ul></li></ul><h4>Error Correction</h4><ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.02-feb/challenge-2021.02-feb.ipynb\" target=\"_blank\" rel=\"noopener\">Error Correction</a> [Task 2]<ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.02-feb/billyljm/qosf-monthly-challenge-04.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/content/ex3/ex3.ipynb\" target=\"_blank\" rel=\"noopener\">Error Correction (IBM 05/2021 Ex3)</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/solutions%20by%20authors/ex3/ex3-solution.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li></ul><h4>Ad Hoc</h4><ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2020.12-dec/challenge-2020.12-dec.ipynb\" target=\"_blank\" rel=\"noopener\">Generate bitstrings that have a specified hamming distance</a><ul><li><a href=\"https://github.com/qosf/monthly-challenges/tree/main/challenge-2020.12-dec/amirebrahimi\" target=\"_blank\" rel=\"noopener\">Solutions</a></li></ul></li><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.04-apr/challenge-2021.04-apr.ipynb\" target=\"_blank\" rel=\"noopener\">Correlation game</a><ul><li><a href=\"https://github.com/qosf/monthly-challenges/blob/main/challenge-2021.04-apr/sikfeng/qosf-monthly-challenge-06.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/content/ex2/ex2.ipynb\" target=\"_blank\" rel=\"noopener\">Shor’s Algorithm</a><ul><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/solutions%20by%20authors/ex2/ex2-solution.ipynb\" target=\"_blank\" rel=\"noopener\">Solution</a></li></ul></li><li><a href=\"https://github.com/pratjz/QuantumChallenges/blob/main/3-IBMQ-challenge-May-2021/content/ex4/ex4.ipynb\" target=\"_blank\" rel=\"noopener\">Transmon Qubit</a><ul><li>NO SOLUTION (prob a soln somewhere didn’t research much)</li></ul></li><li><a href=\"https://arxiv.org/pdf/quant-ph/0011013.pdf\" target=\"_blank\" rel=\"noopener\">Basics of Quantum Computation Arithmetic </a><ul><li>Good overview of quantum computing tips and tricks</li><li>Basically, a way to establish some basic math tricks</li></ul></li></ul>",
+ "homework_resources": "<h4>Resources for Exercises</h4><p><b>If this homework isn’t enough for you and you want to do more</b></p><ol><li><a href=\"https://ocw.mit.edu/courses/mathematics/18-435j-quantum-computation-fall-2003/\" target=\"_blank\" rel=\"noopener\">Quantum Computation | Mathematics | MIT OpenCourseWare</a> solutions with answers!</li><li><a href=\"https://www.worldscientific.com/worldscibooks/10.1142/6077\" target=\"_blank\" rel=\"noopener\">Problems and Solutions in Quantum Computing and Quantum Information (worldscientific.com)</a></li><li>UWaterloo<ol><li><a href=\"https://cs.uwaterloo.ca/~watrous/QC-notes/\" target=\"_blank\" rel=\"noopener\">Quantum Computation (uwaterloo.ca)</a></li><li><a href=\"https://www.math.uwaterloo.ca/~amchilds/teaching/w08/a1.pdf\" target=\"_blank\" rel=\"noopener\">a1.pdf (uwaterloo.ca)</a></li><li><a href=\"https://www.math.uwaterloo.ca/~amchilds/teaching/w08/a2.pdf\" target=\"_blank\" rel=\"noopener\">a2.pdf (uwaterloo.ca)</a></li><li><a href=\"https://www.math.uwaterloo.ca/~amchilds/teaching/w08/a3.pdf\" target=\"_blank\" rel=\"noopener\">a3.pdf (uwaterloo.ca)</a></li><li><a href=\"https://cs.uwaterloo.ca/~cleve/courses/F07CS667/index.html\" target=\"_blank\" rel=\"noopener\">Assignments</a></li></ol></li><li>Nielsen and Chuang<ol><li>Solutions:<ol><li><a href=\"https://serab.net/docs/qcqi/chapter5/#436\" target=\"_blank\" rel=\"noopener\">Solutions: Quantum Computation and Quantum Information by Nielsen and Chuang | Pseudo- (serab.net)</a></li><li><a href=\"https://enakai00.hatenablog.com/entry/2018/03/25/223023\" target=\"_blank\" rel=\"noopener\">https://enakai00.hatenablog.com/entry/2018/03/25/223023</a></li><li><a href=\"https://rehaanahmad2013.github.io/NielsenChuang-QuantumComputingSolutions/\" target=\"_blank\" rel=\"noopener\">https://rehaanahmad2013.github.io/NielsenChuang-QuantumComputingSolutions/</a></li><li><a href=\"https://github.com/yquek/NielsenChuangSolutions\" target=\"_blank\" rel=\"noopener\">https://github.com/yquek/NielsenChuangSolutions</a></li><li><a href=\"https://github.com/goropikari/SolutionForQuantumComputationAndQuantumInformation\" target=\"_blank\" rel=\"noopener\">https://github.com/goropikari/SolutionForQuantumComputationAndQuantumInformation</a></li><li><a href=\"https://github.com/goropikari/SolutionQCQINielsenChuang\" target=\"_blank\" rel=\"noopener\">https://github.com/goropikari/SolutionQCQINielsenChuang</a></li></ol></li></ol></li><li><a href=\"https://qudev.phys.ethz.ch/static/content/courses/QSIT12/lecturenotes.html\" target=\"_blank\" rel=\"noopener\">Quantum Computing Hardware</a> (lectures notes/slides/exercises)</li><li><a href=\"https://homepages.cwi.nl/~rdewolf/qcnotes.pdf\" target=\"_blank\" rel=\"noopener\">Ronald De Wolf lecture Notes</a> (has exercises but no solutions)</li><li><a href=\"https://www.scottaaronson.com/qisii.pdf\" target=\"_blank\" rel=\"noopener\">Scott Aaronson Lecture Notes</a></li><li>Quantum Crypto<ol><li><a href=\"http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/index.html\" target=\"_blank\" rel=\"noopener\">http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/index.html</a></li></ol></li><li><a href=\"http://theory.caltech.edu/~preskill/ph219/index.html#lecture\" target=\"_blank\" rel=\"noopener\">John Preskill Lecture Notes</a></li><li><a href=\"https://codebook.xanadu.ai/\" target=\"_blank\" rel=\"noopener\">https://codebook.xanadu.ai/</a><ol><li>Video walk through: <a href=\"https://youtube.com/playlist?list=PL91jA61XuCIB-4giBW3Hs-We1FE-fUxPV\" target=\"_blank\" rel=\"noopener\">https://youtube.com/playlist?list=PL91jA61XuCIB-4giBW3Hs-We1FE-fUxPV</a></li></ol></li></ol><h4>Random Resources</h4><ul><li><a href=\"https://arxiv.org/pdf/2008.10647.pdf\" target=\"_blank\" rel=\"noopener\">“Fundamentals In Quantum Algorithms: A Tutorial Series Using Qiskit” </a></li><li><a href=\"https://github.com/poig/Qc_book_list\" target=\"_blank\" rel=\"noopener\">GitHub - poig/Qc_book_list: quantum computing book list - A book list for those who want to self-study quantum computing</a></li></ul>",
+ "projects": [
+  {
+   "group": "Classical Shadows + ML",
+   "items": [
+    {
+     "name": "Classical Shadows + Machine Learning for error mitigation",
+     "url": "https://docs.google.com/document/d/1Jza135fPGUoIY9Z8dFXootupg0xHP04EH33Fnr1psos/edit?usp=drivesdk"
+    }
+   ]
+  },
+  {
+   "group": "Entanglement Measurement Stuff",
+   "items": [
+    {
+     "name": "measurement-induced entanglement phase transition",
+     "url": "https://docs.google.com/document/d/1N2iUhG3Czfk3VXA-I7O-2C6lVyRasRQQZiqdG_bAISw/edit?usp=drivesdk"
+    }
+   ]
+  },
+  {
+   "name": "Meeting Recordings",
+   "url": "https://docs.google.com/document/d/1WCGolKNICLekRv-R7HwIYrX8yqDUPsHWgFGKYK_pcOY/edit?usp=drivesdk"
+  },
+  {
+   "group": "Mitiq issue 1399 MCMC",
+   "items": [
+    {
+     "name": "Email to Mitiq Paper Authors",
+     "url": "https://docs.google.com/document/d/1zbVR64sURmKGKirkQtZJzVQ60e3fobdzFdt0XoN9CeU/edit?usp=drivesdk"
+    },
+    {
+     "name": "MCMC Data",
+     "url": "https://docs.google.com/document/d/18moaBOxy4OozOJIjWdnPJdlV1qgWQaqBd2PQ63uJSco/edit?usp=drivesdk"
+    },
+    {
+     "name": "MCMC debugging",
+     "url": "https://docs.google.com/spreadsheets/d/1Qk71cGpT6u3U5OV2GNqf4ndZPFjALsKs6GnvQIulnxM/edit?usp=drivesdk"
+    },
+    {
+     "name": "Mitiq issue 1399 MCMC",
+     "url": "https://docs.google.com/document/d/1IDkl04n4on8BasXKa0cZZ7XdfYY55wMbMa5foxpsU4A/edit?usp=drivesdk"
+    }
+   ]
+  },
+  {
+   "group": "Mitiq Issue 818",
+   "items": [
+    {
+     "name": "Mitiq Issue 818 Subspace Expansion",
+     "url": "https://docs.google.com/document/d/1_1rvXjrdpFvMhjrrsO4fJgvwZw3rO2k-mwaaH6OgJEw/edit?usp=drivesdk"
+    },
+    {
+     "name": "proof that minimization is same as generalized eigenvalue problem.pdf",
+     "url": "https://drive.google.com/file/d/1K6C4UBH7K9WmR647nL_jaaLoeJTgatTh/view?usp=drivesdk"
+    },
+    {
+     "name": "subspace-expansion-v1-Copy1.ipynb",
+     "url": "https://drive.google.com/file/d/1FR8GqwvqyzL_M5Koxduy6C5pze2UGknb/view?usp=drivesdk"
+    }
+   ]
+  },
+  {
+   "name": "MITIQ meeting Dec 14, 2022",
+   "url": "https://docs.google.com/document/d/1pMALs-vFqHt8U7VqJixFKZ_a4RmHL9torWOCE3DMORM/edit?usp=drivesdk"
+  }
+ ],
+ "writeups": [
+  {
+   "name": "QOSF Monthly Challenge April 2022 [Task 1]",
+   "url": "https://docs.google.com/document/d/18WvZjXNb6uousWPijxhgJu3tzbyaiOc5TfK5Sedw51Y/edit?usp=drivesdk"
+  },
+  {
+   "name": "QOSF Monthly Challenge March 2022 [Task 1]",
+   "url": "https://docs.google.com/document/d/1bdkzovwscerlO_tS9i4-cKbEaug7mhcXryvooDsd5EY/edit?usp=drivesdk"
+  }
+ ]
+}
