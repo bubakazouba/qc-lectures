@@ -108,7 +108,7 @@ function home(){
   <div class="tr">${D.chapters.map(c=>`<a href="#/l/${c.ls[0].id}" style="--c:${COLORS[c.id]}"><b>${esc(c.name)}</b><small>${esc(c.blurb)} · ${c.ls.length} lectures</small></a>`).join("")}</div></div>`;
 }
 function lesson(l){
-  side(l);seen.add(l.id);saveSeen();
+  seen.add(l.id);saveSeen();side(l);
   const i=D.flat.indexOf(l),prev=D.flat[i-1],next=D.flat[i+1],t=D.trackById[l.track];
   const pdfs=l.notes.filter(n=>n.id&&n.kind==="PDF");
   const tabs=[l.homework&&["hw","Homework"],pdfs.length&&["notes","Notes"],l.notes.some(n=>!(n.id&&n.kind==="PDF"))&&["links","Links"]].filter(Boolean);
