@@ -93,12 +93,13 @@ footer{color:var(--mute);font-size:13px;padding:30px 0 50px;border-top:1px solid
 <script src="shared.js"></script>
 <script>
 const {load,COLORS,label,thumb,embed,drivePreview,fmtDate,esc}=QC;
+const HASHW=l=>l.homework.replace(/^<h4>Resources<\/h4>(?:<p>.*?<\/p>|<ul>.*?<\/ul>|<ol>.*?<\/ol>)*/,"").trim().length>0;
 let D, state={tab:"lectures",q:"",track:null};
 const TABS=[["lectures","Lectures"],["talks","Seminar talks"],["syllabus","Syllabus"],["practice","Practice"],["projects","Projects"]];
 load("./").then(d=>{D=d;
   drive.href=D.drive;drive2.href=D.drive;gh.href=D.github;
   const n=D.lectures, notes=n.reduce((s,l)=>s+l.notes.filter(x=>x.kind==="PDF").length,0);
-  stats.innerHTML=[[n.filter(l=>l.video).length,"recordings"],[notes,"PDF notes"],[n.filter(l=>l.homework).length,"homework sets"],["2021–23","Nov to Aug"]].map(([b,s])=>`<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+  stats.innerHTML=[[n.filter(l=>l.video).length,"recordings"],[notes,"PDF notes"],[n.filter(HASHW).length,"lectures with homework"],["2021–23","Nov to Aug"]].map(([b,s])=>`<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
   tabs.innerHTML=TABS.map(([k,v])=>`<button data-k="${k}">${v}</button>`).join("");
   tabs.onclick=e=>{const k=e.target.dataset.k;if(k){state.tab=k;render()}};
   render();
@@ -120,12 +121,12 @@ function drawGrid(){
   const q=state.q.trim().toLowerCase();
   const list=D.ordered.filter(l=>(!state.track||l.track===state.track)&&(!q||(l.title+" "+label(l)+" "+(l.presenter||"")+" "+D.trackById[l.track].name).toLowerCase().includes(q)));
   grid.innerHTML=list.map(l=>{const t=D.trackById[l.track],pdf=l.notes.find(n=>n.kind==="PDF");
-    const hasHw=/<h4>[^<]*home\s*work/i.test(l.homework);
+    const hasHw=HASHW(l);
     return `<tr data-id="${l.id}"><td class="n">${l.num??(l.id==="H5"?"Guest":"Hardware "+l.id.slice(1)+"/4")}</td>
       <td class="ttl">${esc(l.title)}${l.presenter?`<small>${esc(l.presenter)}</small>`:""}${!l.video?`<small>${esc(l.note||"No recording")}</small>`:""}</td>
       <td class="tp"><i style="background:${COLORS[l.track]}"></i>${esc(t.name)}</td>
       <td class="dt">${fmtDate(l.date)}</td>
-      <td class="has">${l.video?`<a href="${l.video}" target="_blank" rel="noopener">▶ Video</a>`:`<span class="off">▶ Video</span>`}${pdf?`<a href="${pdf.url}" target="_blank" rel="noopener">Notes</a>`:`<span class="off">Notes</span>`}${hasHw?`<span>Homework</span>`:`<span class="off">Homework</span>`}</td></tr>`}).join("")||`<tr><td colspan="5" style="color:var(--mute)">Nothing matches.</td></tr>`;
+      <td class="has">${l.video?`<a href="${l.video}" target="_blank" rel="noopener">▶ Video</a>`:`<span class="off">▶ Video</span>`}${pdf?`<a href="${pdf.url}" target="_blank" rel="noopener">Notes</a>`:`<span class="off">Notes</span>`}${hasHw?`<span>Homework</span>`:l.homework?`<span>Reading</span>`:`<span class="off">Homework</span>`}</td></tr>`}).join("")||`<tr><td colspan="5" style="color:var(--mute)">Nothing matches.</td></tr>`;
   grid.onclick=e=>{if(e.target.closest("a"))return;const c=e.target.closest("tr[data-id]");if(c)openL(c.dataset.id)};
 }
 function openL(id){
