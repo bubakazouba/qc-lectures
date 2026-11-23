@@ -7,7 +7,7 @@ window.QC = (function () {
     ml: "#10b981", manybody: "#6366f1",
   };
   async function load(base) {
-    const r = await fetch((base || "../") + "data.json");
+    const r = await fetch((base ?? "../") + "data.json");
     const d = await r.json();
     d.byId = Object.fromEntries(d.lectures.map((l) => [l.id, l]));
     d.trackById = Object.fromEntries(d.tracks.map((t) => [t.id, t]));
