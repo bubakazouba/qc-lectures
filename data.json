@@ -1248,7 +1248,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-02-12",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "track": "complexity"
   },
   {
@@ -1273,7 +1273,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-02-19",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "track": "complexity"
   },
   {
@@ -1289,7 +1289,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-02-26",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "track": "complexity"
   },
   {
@@ -1321,7 +1321,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-03-19",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "track": "measurement"
   },
   {
@@ -1367,7 +1367,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-04-16",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "track": "crypto"
   },
   {
@@ -1390,7 +1390,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-04-23",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "track": "crypto"
   },
   {
@@ -1413,7 +1413,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-04-30",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "track": "crypto"
   },
   {
@@ -1541,7 +1541,7 @@
    "assigned": null,
    "due": null,
    "date": "2023-07-30",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "track": "ml"
   },
   {
@@ -1697,7 +1697,7 @@
   },
   {
    "date": "Jul 30, 2023",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "topic": "Learning About Quantum States",
    "links": [
     {
@@ -1759,13 +1759,13 @@
   },
   {
    "date": "Apr 30, 2023",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "topic": "Reduction of SVP to HSP over D N and Kuperberg’s algorithm",
    "links": []
   },
   {
    "date": "Apr 23, 2023",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "topic": "Lattice based problem f(n)-unique SVP reduction to HSP on dihedral group & Kuperberg’s algorithm",
    "links": [
     {
@@ -1780,7 +1780,7 @@
   },
   {
    "date": "Apr 16, 2023",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "topic": "HSP for finite abelian groups",
    "links": [
     {
@@ -1810,7 +1810,7 @@
   },
   {
    "date": "Mar 19, 2023",
-   "presenter": "Sahmoud",
+   "presenter": "Abdulrahman Sahmoud",
    "topic": "Measuring all compatible operators in one series of single-qubit measurements using unitary transformations",
    "links": [
     {
@@ -1827,19 +1827,19 @@
   },
   {
    "date": "Feb 26, 2023",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "topic": "Compression Theorem",
    "links": []
   },
   {
    "date": "Feb 19, 2023",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "topic": "Grilo’s verification protocol",
    "links": []
   },
   {
    "date": "Feb 12, 2023",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "topic": "Complexity Theory",
    "links": []
   },
@@ -1879,7 +1879,7 @@
   },
   {
    "date": "Jan 8, 2023",
-   "presenter": "Preksha",
+   "presenter": "Preksha Naik",
    "topic": "ZNE paper",
    "links": []
   },

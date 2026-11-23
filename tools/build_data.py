@@ -160,6 +160,9 @@ seminar = {  # lecture -> (date, presenter); matched by topic against the Schedu
     52: ("2023-01-29", "Johnson Qiao"),
 }
 
+FULL_NAMES = {"Sahmoud": "Abdulrahman Sahmoud", "Preksha": "Preksha Naik"}
+seminar = {k: (d, FULL_NAMES.get(p, p)) for k, (d, p) in seminar.items()}
+
 TRACKS = [
     ("foundations", "Foundations", "Qubits, gates as matrices, superdense coding, teleportation", [1, 2, 3, 4]),
     ("oracles", "Oracle algorithms", "Deutsch, Deutsch-Jozsa, Simon", [5, 6, 7]),
@@ -233,7 +236,7 @@ for tr in sch.find_all("tr")[1:]:
         continue
     links = [{"text": fix(a.get_text(" ", strip=True)), "url": unwrap(a["href"])} for a in tds[2].find_all("a") if not a["href"].startswith("#")]
     first = next((fix(x.get_text(" ", strip=True)) for x in tds[2].find_all(["p", "li"]) if x.get_text(strip=True)), topic)
-    talks.append({"date": d, "presenter": who, "topic": first.replace(" ", " ").strip(), "links": links})
+    talks.append({"date": d, "presenter": FULL_NAMES.get(who, who), "topic": first.replace(" ", " ").strip(), "links": links})
 sch_nodes = [c for c in sch.body.children if getattr(c, "name", None) and c.name in ("ul", "ol", "p", "h1", "h2", "h3", "h4")]
 pi = next(i for i, c in enumerate(sch_nodes) if "Potential Topics" in c.get_text())
 potential = blocks_to_html(sch_nodes[pi + 1:])
