@@ -31,7 +31,7 @@ details.ch summary .n{margin-left:auto;font-weight:400;color:var(--mute);font-si
 .ls a span{color:var(--mute);font-size:12px;min-width:30px;padding-top:1px}
 .ls a.seen span::after{content:" ✓";color:var(--acc)}
 .ls a:hover{background:var(--bg)}.ls a.on{background:var(--hi)}
-main{overflow:auto}
+main{overflow:auto;min-width:0}
 .inner{max-width:1000px;margin:0 auto;padding:26px 28px 70px}
 .crumb{font-size:13px;color:var(--mute)}
 h1{font-family:"Source Serif 4",serif;font-size:clamp(26px,3.4vw,38px);line-height:1.12;margin:6px 0 16px}
@@ -40,7 +40,7 @@ h1{font-family:"Source Serif 4",serif;font-size:clamp(26px,3.4vw,38px);line-heig
 .tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin:22px 0 0}
 .tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:10px 14px;font:500 14.5px "Inter Tight";color:var(--mute);cursor:pointer}
 .tabs button.on{color:var(--ink);border-color:var(--acc)}
-.pane{padding:16px 0}
+.pane{padding:16px 0;overflow-wrap:anywhere}
 .pane h4{font-size:12.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--mute);margin:18px 0 4px}
 .pane ul,.pane ol{padding-left:22px}.pane img{max-width:100%;height:auto;border-radius:6px;background:#fff}
 .pdf{width:100%;height:78vh;border:1px solid var(--line);border-radius:10px}
